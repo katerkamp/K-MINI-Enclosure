@@ -1,7 +1,7 @@
 = K's MINI Enclosure: A Prusa MINI 3D Printer Enclosure
 Stefan Katerkamp <info@katerkamp.de>
 
-https://katerkamp.de/maker/k-mini.enclosure.xhtml[__K's-MINI-Enclosure__ by Stefan Katerkamp]
+https://katerkamp.de/maker/k-mini-enclosure.xhtml[__K's-MINI-Enclosure__ by Stefan Katerkamp]
 / https://creativecommons.org/licenses/by/4.0[CC BY]
 
 
