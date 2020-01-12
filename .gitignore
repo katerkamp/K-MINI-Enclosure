@@ -1,0 +1,94 @@
+# file types to ignore
+  
+*.pyc
+*.obj
+*.lib
+*.pch
+*.vcproj
+*.exp
+*.dep
+*.manifest
+*.o
+*.orig
+qrc_*.cpp
+*.html
+BuildLog.htm
+cmake_install.cmake
+*~
+CMakeFiles/
+*qrc.depends
+ui_*.h
+moc_*.cpp
+Makefile
+CMakeCache.txt
+CMakeLists.txt.user
+config.h
+install_manifest.txt
+/bin/
+/ALL_BUILD.dir/
+/doc/
+/lib/
+/Mod/
+/ZERO_CHECK.dir/
+/build/
+/src/Tools/offlinedoc/localwiki/
+/src/Tools/offlinedoc/*.txt
+OpenSCAD_rc.py
+.subuser-dev
+/\.idea/
+.tags
+tags
+/\.vscode/
+
+# crowdin file
+src/Tools/freecad.zip
+~                      
+
+*.swp
+
+.svn
+.wtpmodules
+
+# maven noise
+#**/target
+!target/gabler-test.pdf
+!target/ad-template.pdf
+target
+
+# gradle noise
+.gradle
+
+# osx noise
+.DS_Store
+profile
+
+# IntelliJ Idea noise
+.idea
+*.iws
+*.ipr
+*.iml
+*.releaseBackup
+venv
+
+# NB noise
+nbactions.xml
+nb-configuration.xml
+.netbeans_automatic_build
+
+# Eclipse noise
+.settings
+.settings/**
+.project
+.classpath
+
+# Eric
+*.e4p
+
+# Maven plugins noise
+dependency-reduced-pom.xml
+.tern-project
+faces-config.NavData
+.LCKpom.xml~
+pom.xml.versionsBackup
+
+
