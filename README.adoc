@@ -5,7 +5,7 @@ https://katerkamp.de/maker/k-mini-enclosure.xhtml[__K's-MINI-Enclosure__ by Stef
 / https://creativecommons.org/licenses/by/4.0[CC BY]
 
 
-Homepage for this project is https://katerkamp.de/maker/k-mini.enclosure.xhtml[].
+Homepage for this project is https://katerkamp.de/maker/k-mini-enclosure.xhtml[].
 
 image::K-MINI-Enclosure.png[pdfwidth=90%,width=40%]
 
