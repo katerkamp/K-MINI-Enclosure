@@ -91,4 +91,8 @@ faces-config.NavData
 .LCKpom.xml~
 pom.xml.versionsBackup
 
+# FreeCAD
+
+*.FCStd1
+*.fcstd1
 
