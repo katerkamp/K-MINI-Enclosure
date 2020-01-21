@@ -213,5 +213,21 @@
   <text x="447.500000" y="43.522889" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 447.500000,43.522889)" >155</text> </g>
 
 
+<g> 
+  <line x1="260.000000" y1="323.000000" x2="260.000000" y2="310.473176" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="235.000000" y1="323.000000" x2="235.000000" y2="310.473176" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="260.000000" y1="311.473176" x2="235.000000" y2="311.473176" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="235.000000,311.473176 238.000000,312.473176 239.000000,311.473176 238.000000,310.473176" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="260.000000,311.473176 257.000000,310.473176 256.000000,311.473176 257.000000,312.473176" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="247.500000" y="309.473176" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 247.500000,309.473176)" >25</text> </g>
+
+
+<g> 
+  <line x1="370.000000" y1="278.000000" x2="370.000000" y2="242.150622" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="155.000000" y1="278.000000" x2="155.000000" y2="242.150622" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="370.000000" y1="243.150622" x2="155.000000" y2="243.150622" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="155.000000,243.150622 158.000000,244.150622 159.000000,243.150622 158.000000,242.150622" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="370.000000,243.150622 367.000000,242.150622 366.000000,243.150622 367.000000,244.150622" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="262.500000" y="241.150622" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 262.500000,241.150622)" >215</text> </g>
+
+
 </svg>
 
