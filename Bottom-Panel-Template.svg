@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+	width="594mm"
+	height="420mm"
+	viewBox="0 0 594 420">
+	<!-- Working space 0 0 594 420 -->
+	<defs>
+		<radialGradient
+			id="radialGradient3661"
+			gradientUnits="userSpaceOnUse"
+			cy="29.149"
+			cx="282.65"
+			gradientTransform="matrix(.14777 .23089 -.24680 .15795 -26.318 -62.617)"
+			r="19.571">
+				<stop stop-color="#71b2f8" offset="0"/>
+				<stop stop-color="#002795" offset="1"/>
+		</radialGradient>
+		<radialGradient
+			id="radialGradient3817"
+			gradientUnits="userSpaceOnUse"
+			cy="33.9"
+			cx="270.58"
+			gradientTransform="matrix(.26631 .065024 -.17931 .73438 -60.668 -36.938)"
+			r="19.571">
+				<stop stop-color="#ff6d0f" offset="0"/>
+				<stop stop-color="#ff1000" offset="1"/>
+		</radialGradient>
+	</defs>
+	<!-- Set display:none to hide FreeCAD Logo -->
+	<g
+		style="display:inline"
+		id="freecad-logo"
+		transform="translate(552, 380) scale(2)"
+		fill-rule="evenodd"
+		stroke-width=".45621">
+		<path d="m0.22811 0.22835v13.256h2.9558v-5.1876h2.09v-2.0452h-2.09v-2.2075h5.1486v-3.8087l-8.1044-0.0075z"
+			stroke="#370700"
+			fill="url(#radialGradient3817)"/>
+		<path d="m13.386 4.1792-1.7193 0.98645-0.75925-0.26348-0.72439-1.8513-1.1395 0.05988-0.51976 1.9144-0.72743 0.34835-1.8143-0.79367-0.76632 0.85156 0.98645 1.7193-0.26957 0.75702-1.8513 0.72439 0.065967 1.1417 1.9144 0.51976 0.34835 0.72743-0.79976 1.8121 0.85156 0.76632 1.7193-0.98645 0.76311 0.27179 0.7183 1.8491 1.1478-0.06375 0.51367-1.9166 0.72743-0.34835 1.8182 0.80198 0.76632-0.85156-0.98645-1.7193 0.2657-0.76533 1.8491-0.7183-0.05766-1.1456-1.9166-0.51367-0.34835-0.72743 0.7959-1.8204-0.85156-0.76632zm-2.5751 2.8195 0.35295 0.20478 0.30579 0.27725 0.24481 0.33087 0.17611 0.36787 0.10354 0.39656 0.01715 0.4064-0.0587 0.4063-0.13396 0.38571-0.2131 0.35681-0.26894 0.30192-0.33087 0.24481-0.36787 0.17611-0.39656 0.10354-0.40863 0.02325-0.4063-0.0587-0.38571-0.13396-0.35681-0.2131-0.2997-0.27503-0.24703-0.32478-0.17611-0.36787-0.10132-0.40264-0.02324-0.40863 0.05869-0.4063 0.13396-0.38571 0.21087-0.35072 0.27116-0.30801 0.33087-0.24481 0.36787-0.17611 0.40264-0.10132 0.40641-0.01715 0.4063 0.05869 0.38571 0.13396z" 
+		stroke="#000137"
+		fill="url(#radialGradient3661)"/>
+	</g>
+<g id="View"
+   transform="rotate(90,300,300) translate(300,300) scale(1,1)"
+  >
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.350000"
+   transform="scale(1,-1)"
+  >
+<path id= "1" d=" M -205 -237 L 22 -237 " />
+<path id= "2" d=" M 22 -237 L 22 -75 " />
+<path id= "3" d=" M 22 -75 L 35 -75 " />
+<path id= "4" d=" M 35 -75 L 35 135 " />
+<path id= "5" d=" M 35 135 L 22 135 " />
+<path id= "6" d=" M 22 135 L 22 225 " />
+<path id= "7" d=" M 22 225 L -205 225 " />
+<path id= "8" d=" M -205 225 L -205 205 " />
+<path id= "9" d=" M -205 205 L -225 205 " />
+<path id= "10" d=" M -225 205 L -225 -230 " />
+<path id= "11" d=" M -225 -230 L -205 -230 " />
+<path id= "12" d=" M -205 -230 L -205 -237 " />
+<circle cx ="0" cy ="-145" r ="1.5" /><circle cx ="-20" cy ="-145" r ="1.5" /><circle cx ="0" cy ="70" r ="1.5" /><circle cx ="-20" cy ="70" r ="1.5" /><circle cx ="-155" cy ="-145" r ="1.5" /><circle cx ="-120" cy ="-145" r ="1.5" /><circle cx ="25" cy ="-65" r ="1.5" /><circle cx ="25" cy ="-40" r ="1.5" /><circle cx ="-120" cy ="70" r ="1.5" /><circle cx ="-155" cy ="70" r ="1.5" /><circle cx ="0" cy ="0" r ="1" /></g>
+</g>
+
+
+
+<g> 
+  <line x1="68.000000" y1="75.000000" x2="30.314251" y2="75.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="61.000000" y1="322.000000" x2="30.314251" y2="322.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="31.314251" y1="75.000000" x2="31.314251" y2="322.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="31.314251,322.000000 32.314251,319.000000 31.314251,318.000000 30.314251,319.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="31.314251,75.000000 30.314251,78.000000 31.314251,79.000000 32.314251,78.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="29.314251" y="198.500000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 29.314251,198.500000)" >247</text> </g>
+
+
+<g> 
+  <line x1="68.000000" y1="75.000000" x2="45.188520" y2="75.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="68.000000" y1="95.000000" x2="45.188520" y2="95.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="46.188520" y1="75.000000" x2="46.188520" y2="95.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="46.188520,95.000000 47.188520,92.000000 46.188520,91.000000 45.188520,92.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="46.188520,75.000000 45.188520,78.000000 46.188520,79.000000 47.188520,78.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="44.188520" y="85.000000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 44.188520,85.000000)" >20</text> </g>
+
+
+<g> 
+  <line x1="63.000000" y1="93.000000" x2="63.000000" y2="60.454217" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="70.000000" y1="73.000000" x2="70.000000" y2="60.454217" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="63.000000" y1="61.454217" x2="70.000000" y2="61.454217" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="70.000000,61.454217 73.000000,62.454217 74.000000,61.454217 73.000000,60.454217" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="63.000000,61.454217 60.000000,60.454217 59.000000,61.454217 60.000000,62.454217" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="66.500000" y="59.454217" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 66.500000,59.454217)" >7</text> </g>
+
+
+<g> 
+  <line x1="507.000000" y1="75.000000" x2="544.693676" y2="75.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="507.000000" y1="95.000000" x2="544.693676" y2="95.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="543.693676" y1="75.000000" x2="543.693676" y2="95.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="543.693676,95.000000 544.693676,92.000000 543.693676,91.000000 542.693676,92.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="543.693676,75.000000 542.693676,78.000000 543.693676,79.000000 544.693676,78.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="541.693676" y="85.000000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 541.693676,85.000000)" >20</text> </g>
+
+
+<g> 
+  <line x1="527.000000" y1="95.000000" x2="544.302248" y2="95.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="527.000000" y1="322.000000" x2="544.302248" y2="322.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="543.302248" y1="95.000000" x2="543.302248" y2="322.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="543.302248,322.000000 544.302248,319.000000 543.302248,318.000000 542.302248,319.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="543.302248,95.000000 542.302248,98.000000 543.302248,99.000000 544.302248,98.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="541.302248" y="208.500000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 541.302248,208.500000)" >227</text> </g>
+
+
+<g> 
+  <line x1="507.000000" y1="75.000000" x2="560.350802" y2="75.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="437.000000" y1="335.000000" x2="560.350802" y2="335.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="559.350802" y1="75.000000" x2="559.350802" y2="335.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="559.350802,335.000000 560.350802,332.000000 559.350802,331.000000 558.350802,332.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="559.350802,75.000000 558.350802,78.000000 559.350802,79.000000 560.350802,78.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="557.350802" y="205.000000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 557.350802,205.000000)" >260</text> </g>
+
+
+<g> 
+  <line x1="63.000000" y1="93.000000" x2="63.000000" y2="35.402816" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="525.000000" y1="93.000000" x2="525.000000" y2="35.402816" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="63.000000" y1="36.402816" x2="525.000000" y2="36.402816" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="525.000000,36.402816 522.000000,35.402816 521.000000,36.402816 522.000000,37.402816" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="63.000000,36.402816 66.000000,37.402816 67.000000,36.402816 66.000000,35.402816" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="294.000000" y="34.402816" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 294.000000,34.402816)" >462</text> </g>
+
+
+<g> 
+  <line x1="505.000000" y1="93.000000" x2="505.000000" y2="51.451370" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="525.000000" y1="93.000000" x2="525.000000" y2="51.451370" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="505.000000" y1="52.451370" x2="525.000000" y2="52.451370" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="525.000000,52.451370 522.000000,51.451370 521.000000,52.451370 522.000000,53.451370" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="505.000000,52.451370 508.000000,53.451370 509.000000,52.451370 508.000000,51.451370" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="515.000000" y="50.451370" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 515.000000,50.451370)" >20</text> </g>
+
+
+<g> 
+  <line x1="63.000000" y1="324.000000" x2="63.000000" y2="383.816714" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="225.000000" y1="324.000000" x2="225.000000" y2="383.816714" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="63.000000" y1="382.816714" x2="225.000000" y2="382.816714" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="225.000000,382.816714 222.000000,381.816714 221.000000,382.816714 222.000000,383.816714" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="63.000000,382.816714 66.000000,383.816714 67.000000,382.816714 66.000000,381.816714" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="144.000000" y="380.816714" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 144.000000,380.816714)" >162</text> </g>
+
+
+<g> 
+  <line x1="225.000000" y1="337.000000" x2="225.000000" y2="369.725301" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="435.000000" y1="337.000000" x2="435.000000" y2="369.725301" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="225.000000" y1="368.725301" x2="435.000000" y2="368.725301" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="435.000000,368.725301 432.000000,367.725301 431.000000,368.725301 432.000000,369.725301" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="225.000000,368.725301 228.000000,369.725301 229.000000,368.725301 228.000000,367.725301" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="330.000000" y="366.725301" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 330.000000,366.725301)" >210</text> </g>
+
+
+<g> 
+  <line x1="368.000000" y1="180.000000" x2="315.035421" y2="180.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="503.000000" y1="75.000000" x2="315.035421" y2="75.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="316.035421" y1="180.000000" x2="316.035421" y2="75.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="316.035421,75.000000 315.035421,78.000000 316.035421,79.000000 317.035421,78.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="316.035421,180.000000 317.035421,177.000000 316.035421,176.000000 315.035421,177.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="314.035421" y="127.500000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 314.035421,127.500000)" >105</text> </g>
+
+
+<g> 
+  <line x1="368.000000" y1="180.000000" x2="347.945273" y2="180.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="368.000000" y1="145.000000" x2="347.945273" y2="145.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="348.945273" y1="180.000000" x2="348.945273" y2="145.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="348.945273,145.000000 347.945273,148.000000 348.945273,149.000000 349.945273,148.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="348.945273,180.000000 349.945273,177.000000 348.945273,176.000000 347.945273,177.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="346.945273" y="162.500000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 346.945273,162.500000)" >35</text> </g>
+
+
+<g> 
+  <line x1="258.000000" y1="325.000000" x2="228.562723" y2="325.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="298.000000" y1="300.000000" x2="228.562723" y2="300.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="229.562723" y1="325.000000" x2="229.562723" y2="300.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="229.562723,300.000000 228.562723,303.000000 229.562723,304.000000 230.562723,303.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="229.562723,325.000000 230.562723,322.000000 229.562723,321.000000 228.562723,322.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="227.562723" y="312.500000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 227.562723,312.500000)" >25</text> </g>
+
+
+<g> 
+  <line x1="368.000000" y1="180.000000" x2="111.052618" y2="180.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="368.000000" y1="300.000000" x2="111.052618" y2="300.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="112.052618" y1="180.000000" x2="112.052618" y2="300.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="112.052618,300.000000 113.052618,297.000000 112.052618,296.000000 111.052618,297.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="112.052618,180.000000 111.052618,183.000000 112.052618,184.000000 113.052618,183.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="110.052618" y="240.000000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 110.052618,240.000000)" >120</text> </g>
+
+
+<g> 
+  <line x1="368.000000" y1="300.000000" x2="133.992524" y2="300.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="368.000000" y1="280.000000" x2="133.992524" y2="280.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="134.992524" y1="300.000000" x2="134.992524" y2="280.000000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="134.992524,280.000000 133.992524,283.000000 134.992524,284.000000 135.992524,283.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="134.992524,300.000000 135.992524,297.000000 134.992524,296.000000 133.992524,297.000000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="132.992524" y="290.000000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 132.992524,290.000000)" >20</text> </g>
+
+
+<g> 
+  <line x1="260.000000" y1="323.000000" x2="260.000000" y2="310.807223" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="370.000000" y1="302.000000" x2="370.000000" y2="312.807223" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="260.000000" y1="311.807223" x2="370.000000" y2="311.807223" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="370.000000,311.807223 367.000000,310.807223 366.000000,311.807223 367.000000,312.807223" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="260.000000,311.807223 263.000000,312.807223 264.000000,311.807223 263.000000,310.807223" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="315.000000" y="309.807223" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 315.000000,309.807223)" >110</text> </g>
+
+
+<g> 
+  <line x1="370.000000" y1="298.000000" x2="370.000000" y2="288.120783" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="300.000000" y1="298.000000" x2="300.000000" y2="288.120783" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="370.000000" y1="289.120783" x2="300.000000" y2="289.120783" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="300.000000,289.120783 303.000000,290.120783 304.000000,289.120783 303.000000,288.120783" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="370.000000,289.120783 367.000000,288.120783 366.000000,289.120783 367.000000,290.120783" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="335.000000" y="287.120783" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-0.000000 335.000000,287.120783)" >70</text> </g>
+
+
+<g> 
+  <line x1="370.000000" y1="298.000000" x2="370.000000" y2="44.522889" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="525.000000" y1="93.000000" x2="525.000000" y2="44.522889" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="370.000000" y1="45.522889" x2="525.000000" y2="45.522889" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="525.000000,45.522889 522.000000,44.522889 521.000000,45.522889 522.000000,46.522889" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="370.000000,45.522889 373.000000,46.522889 374.000000,45.522889 373.000000,44.522889" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="447.500000" y="43.522889" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 447.500000,43.522889)" >155</text> </g>
+
+
+</svg>
+
