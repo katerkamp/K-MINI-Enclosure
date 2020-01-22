@@ -17,7 +17,7 @@ DIN-Rail mount for power supply and optional controllers (Raspberry PI etc):
 
 image::photos/Frame-Powerbrick+DINrails.jpg[pdfwidth=90%,width=70%]
 
-3D printed quickrelease parts for mounting panels to extrusions:
+3D printed low cost blind joint centerplates and panel mount quickrelease parts:
 
 image::photos/Quickrelease-Details.jpg[pdfwidth=90%,width=70%]
 
