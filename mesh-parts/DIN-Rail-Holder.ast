@@ -31,14 +31,14 @@ solid DIN-Rail-Holder (Meshed)
     outer loop
       vertex 9.000000 -25.500000 -0.000000
       vertex 9.000000 25.500000 0.000000
-      vertex 9.000000 13.500000 7.000000
+      vertex 9.000000 -13.500000 7.000000
     endloop
   endfacet
-  facet normal 1.000000 0.000000 0.000000
+  facet normal 1.000000 -0.000000 0.000000
     outer loop
-      vertex 9.000000 -25.500000 -0.000000
-      vertex 9.000000 13.500000 7.000000
       vertex 9.000000 -13.500000 7.000000
+      vertex 9.000000 25.500000 0.000000
+      vertex 9.000000 13.500000 7.000000
     endloop
   endfacet
   facet normal 0.130525 -0.991445 0.000000
@@ -104,13 +104,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 8.732051 -26.500000 8.000000
     endloop
   endfacet
-  facet normal 0.991445 -0.130527 0.000000
-    outer loop
-      vertex 8.931851 -26.017637 8.000000
-      vertex 8.931851 -26.017637 -0.000000
-      vertex 9.000000 -25.500000 8.000000
-    endloop
-  endfacet
   facet normal 0.923880 -0.382682 0.000000
     outer loop
       vertex 8.732051 -26.500000 -0.000000
@@ -120,50 +113,57 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.991445 -0.130527 0.000000
     outer loop
-      vertex 8.931851 -26.017637 -0.000000
+      vertex 8.931851 -26.017637 8.000000
       vertex 9.000000 -25.500000 -0.000000
       vertex 9.000000 -25.500000 8.000000
     endloop
   endfacet
-  facet normal 0.993056 -0.000000 0.117638
+  facet normal 0.991445 -0.130527 0.000000
+    outer loop
+      vertex 8.931851 -26.017637 -0.000000
+      vertex 9.000000 -25.500000 -0.000000
+      vertex 8.931851 -26.017637 8.000000
+    endloop
+  endfacet
+  facet normal 0.993062 -0.000000 0.117594
     outer loop
       vertex 9.000000 -25.500000 8.000000
       vertex 9.000000 -13.500000 8.000000
-      vertex 8.944645 -13.728672 8.467285
+      vertex 8.944686 -13.728593 8.467116
     endloop
   endfacet
-  facet normal 0.937050 0.000475 0.349195
+  facet normal 0.937085 0.000477 0.349102
     outer loop
       vertex 8.931851 -25.500000 8.517638
-      vertex 8.944645 -13.728672 8.467285
-      vertex 8.776540 -13.916564 8.918644
+      vertex 8.944686 -13.728593 8.467116
+      vertex 8.776645 -13.916494 8.918441
     endloop
   endfacet
-  facet normal 0.991445 -0.000519 0.130527
+  facet normal 0.991445 -0.000521 0.130527
     outer loop
       vertex 8.931851 -25.500000 8.517638
       vertex 9.000000 -25.500000 8.000000
-      vertex 8.944645 -13.728672 8.467285
+      vertex 8.944686 -13.728593 8.467116
     endloop
   endfacet
-  facet normal 0.858298 0.000308 0.513151
+  facet normal 0.858367 0.000308 0.513037
     outer loop
       vertex 8.732051 -25.500000 9.000000
-      vertex 8.776540 -13.916564 8.918644
-      vertex 8.650310 -13.976872 9.129813
+      vertex 8.776645 -13.916494 8.918441
+      vertex 8.650481 -13.976818 9.129562
     endloop
   endfacet
-  facet normal 0.923879 -0.000861 0.382683
+  facet normal 0.923879 -0.000862 0.382683
     outer loop
       vertex 8.732051 -25.500000 9.000000
       vertex 8.931851 -25.500000 8.517638
-      vertex 8.776540 -13.916564 8.918644
+      vertex 8.776645 -13.916494 8.918441
     endloop
   endfacet
-  facet normal 0.789114 -0.001008 0.614246
+  facet normal 0.789161 -0.001009 0.614186
     outer loop
       vertex 8.414213 -25.500000 9.414213
-      vertex 8.650310 -13.976872 9.129813
+      vertex 8.650481 -13.976818 9.129562
       vertex 8.500000 -14.000000 9.322876
     endloop
   endfacet
@@ -174,11 +174,11 @@ solid DIN-Rail-Holder (Meshed)
       vertex 8.188040 -14.000000 9.608901
     endloop
   endfacet
-  facet normal 0.793352 -0.001230 0.608762
+  facet normal 0.793352 -0.001229 0.608762
     outer loop
       vertex 8.414213 -25.500000 9.414213
       vertex 8.732051 -25.500000 9.000000
-      vertex 8.650310 -13.976872 9.129813
+      vertex 8.650481 -13.976818 9.129562
     endloop
   endfacet
   facet normal 0.505566 0.000973 0.862787
@@ -225,68 +225,68 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal -0.000000 0.000000 -1.000000
     outer loop
+      vertex -7.517638 27.431852 0.000000
+      vertex -8.414213 26.914213 0.000000
       vertex -8.000000 27.232050 0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 -1.000000
+    outer loop
+      vertex -7.517638 27.431852 0.000000
       vertex -8.732051 26.500000 0.000000
       vertex -8.414213 26.914213 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
+      vertex -7.517638 27.431852 0.000000
       vertex -8.931851 26.017637 0.000000
       vertex -8.732051 26.500000 0.000000
-      vertex -8.000000 27.232050 0.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 -1.000000
     outer loop
+      vertex -9.000000 25.500000 0.000000
+      vertex -7.517638 27.431852 0.000000
       vertex -7.000000 27.500000 0.000000
-      vertex -8.000000 27.232050 0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 -1.000000
+    outer loop
+      vertex -9.000000 25.500000 0.000000
+      vertex -8.931851 26.017637 0.000000
       vertex -7.517638 27.431852 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
-    outer loop
-      vertex -7.000000 27.500000 0.000000
-      vertex -9.000000 25.500000 0.000000
-      vertex -8.931851 26.017637 0.000000
-    endloop
-  endfacet
-  facet normal -0.000000 0.000000 -1.000000
-    outer loop
-      vertex -7.000000 27.500000 0.000000
-      vertex -8.931851 26.017637 0.000000
-      vertex -8.000000 27.232050 0.000000
-    endloop
-  endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex -0.825000 23.928942 0.000000
       vertex -1.166726 23.666727 0.000000
       vertex -7.000000 27.500000 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex -1.428942 23.325001 0.000000
       vertex -7.000000 27.500000 0.000000
       vertex -1.166726 23.666727 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex -0.427051 24.093777 0.000000
       vertex -0.825000 23.928942 0.000000
       vertex -7.000000 27.500000 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex -1.593778 22.927052 0.000000
       vertex -9.000000 25.500000 0.000000
       vertex -7.000000 27.500000 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex -1.593778 22.927052 0.000000
       vertex -7.000000 27.500000 0.000000
@@ -300,28 +300,28 @@ solid DIN-Rail-Holder (Meshed)
       vertex -7.000000 27.500000 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex -1.650000 22.500000 0.000000
       vertex -9.000000 25.500000 0.000000
       vertex -1.593778 22.927052 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex -1.593778 22.072948 0.000000
       vertex -9.000000 25.500000 0.000000
       vertex -1.650000 22.500000 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex -1.428942 21.674999 0.000000
       vertex -9.000000 25.500000 0.000000
       vertex -1.593778 22.072948 0.000000
     endloop
   endfacet
-  facet normal -0.000000 -0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex -1.166726 21.333273 0.000000
       vertex -9.000000 25.500000 0.000000
@@ -335,28 +335,28 @@ solid DIN-Rail-Holder (Meshed)
       vertex -0.000000 24.150000 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 -0.000000 -1.000000
     outer loop
       vertex 7.000000 27.500000 0.000000
       vertex 0.825000 23.928942 0.000000
       vertex 0.427051 24.093777 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 -0.000000 -1.000000
     outer loop
       vertex 7.000000 27.500000 0.000000
       vertex 1.166726 23.666727 0.000000
       vertex 0.825000 23.928942 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 -0.000000 -1.000000
     outer loop
       vertex 7.000000 27.500000 0.000000
       vertex 1.428942 23.325001 0.000000
       vertex 1.166726 23.666727 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex 7.000000 27.500000 0.000000
       vertex 1.593778 22.927052 0.000000
@@ -379,40 +379,40 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex 9.000000 25.500000 0.000000
       vertex 8.732051 26.500000 0.000000
-      vertex 8.931851 26.017637 0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 9.000000 25.500000 0.000000
-      vertex 8.414213 26.914213 0.000000
-      vertex 8.732051 26.500000 0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 9.000000 25.500000 0.000000
       vertex 7.000000 27.500000 0.000000
       vertex 7.517638 27.431852 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
+      vertex 8.732051 26.500000 0.000000
+      vertex 7.517638 27.431852 0.000000
+      vertex 8.414213 26.914213 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 9.000000 25.500000 0.000000
+      vertex 8.732051 26.500000 0.000000
+      vertex 8.931851 26.017637 0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 -1.000000
+    outer loop
       vertex 9.000000 25.500000 0.000000
       vertex 1.650000 22.500000 0.000000
       vertex 1.593778 22.927052 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex 9.000000 25.500000 0.000000
       vertex 1.593778 22.072948 0.000000
       vertex 1.650000 22.500000 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex 9.000000 25.500000 0.000000
       vertex 1.428942 21.674999 0.000000
@@ -422,15 +422,15 @@ solid DIN-Rail-Holder (Meshed)
   facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 9.000000 25.500000 0.000000
-      vertex 1.593778 22.927052 0.000000
       vertex 7.000000 27.500000 0.000000
+      vertex 8.732051 26.500000 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 -0.000000 -1.000000
     outer loop
       vertex 9.000000 25.500000 0.000000
-      vertex 7.517638 27.431852 0.000000
-      vertex 8.414213 26.914213 0.000000
+      vertex 1.593778 22.927052 0.000000
+      vertex 7.000000 27.500000 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
@@ -438,20 +438,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.335786 9.414213 0.000000
       vertex -0.825000 21.071058 0.000000
       vertex -0.427051 20.906223 0.000000
-    endloop
-  endfacet
-  facet normal -0.000000 0.000000 -1.000000
-    outer loop
-      vertex 1.750000 9.732051 0.000000
-      vertex 1.335786 9.414213 0.000000
-      vertex -0.427051 20.906223 0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 1.750000 9.732051 0.000000
-      vertex -0.427051 20.906223 0.000000
-      vertex -0.000000 20.850000 0.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 -1.000000
@@ -466,6 +452,20 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.017949 9.000000 0.000000
       vertex -1.166726 21.333273 0.000000
       vertex -0.825000 21.071058 0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 -1.000000
+    outer loop
+      vertex 1.750000 9.732051 0.000000
+      vertex 1.335786 9.414213 0.000000
+      vertex -0.427051 20.906223 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 1.750000 9.732051 0.000000
+      vertex -0.427051 20.906223 0.000000
+      vertex -0.000000 20.850000 0.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 -1.000000
@@ -517,18 +517,18 @@ solid DIN-Rail-Holder (Meshed)
       vertex 0.825000 21.071058 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 3.267638 9.931851 0.000000
-      vertex 2.750000 10.000000 0.000000
-      vertex 0.825000 21.071058 0.000000
-    endloop
-  endfacet
   facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex 3.267638 9.931851 0.000000
       vertex 0.825000 21.071058 0.000000
       vertex 1.166726 21.333273 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 3.267638 9.931851 0.000000
+      vertex 2.750000 10.000000 0.000000
+      vertex 0.825000 21.071058 0.000000
     endloop
   endfacet
   facet normal -0.000000 -0.000000 -1.000000
@@ -538,13 +538,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 0.750000 8.000000 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 3.750000 9.732051 0.000000
-      vertex 3.267638 9.931851 0.000000
-      vertex 1.166726 21.333273 0.000000
-    endloop
-  endfacet
   facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex 3.750000 9.732051 0.000000
@@ -553,6 +546,13 @@ solid DIN-Rail-Holder (Meshed)
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 3.750000 9.732051 0.000000
+      vertex 3.267638 9.931851 0.000000
+      vertex 1.166726 21.333273 0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex 3.750000 9.732051 0.000000
       vertex 1.428942 21.674999 0.000000
@@ -589,58 +589,65 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
+      vertex 1.750000 -6.267949 0.000000
       vertex 1.335786 -6.585786 0.000000
-      vertex 1.335786 6.585786 0.000000
-      vertex 1.750000 6.267949 0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 1.335786 -6.585786 0.000000
-      vertex 1.017949 7.000000 0.000000
       vertex 1.335786 6.585786 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 1.750000 -6.267949 0.000000
-      vertex 1.335786 -6.585786 0.000000
+      vertex 1.335786 6.585786 0.000000
       vertex 1.750000 6.267949 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex 1.750000 -6.267949 0.000000
-      vertex 1.750000 6.267949 0.000000
-      vertex 2.232362 6.068148 0.000000
+      vertex 1.017949 -7.000000 0.000000
+      vertex 1.335786 6.585786 0.000000
+      vertex 1.335786 -6.585786 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 1.017949 -7.000000 0.000000
       vertex 1.017949 7.000000 0.000000
-      vertex 1.335786 -6.585786 0.000000
+      vertex 1.335786 6.585786 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex 0.818148 -7.482362 0.000000
-      vertex 1.017949 7.000000 0.000000
       vertex 1.017949 -7.000000 0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 0.818148 -7.482362 0.000000
       vertex 0.818148 7.482362 0.000000
       vertex 1.017949 7.000000 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
+      vertex 0.818148 -7.482362 0.000000
+      vertex 0.818148 7.482362 0.000000
+      vertex 1.017949 -7.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
       vertex 2.232362 -6.068148 0.000000
       vertex 1.750000 -6.267949 0.000000
+      vertex 1.750000 6.267949 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 2.232362 -6.068148 0.000000
+      vertex 1.750000 6.267949 0.000000
       vertex 2.232362 6.068148 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 2.750000 -6.000000 0.000000
+      vertex 2.232362 6.068148 0.000000
+      vertex 2.750000 6.000000 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
@@ -652,8 +659,8 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
+      vertex 3.267638 -6.068148 0.000000
       vertex 2.750000 -6.000000 0.000000
-      vertex 2.232362 6.068148 0.000000
       vertex 2.750000 6.000000 0.000000
     endloop
   endfacet
@@ -662,20 +669,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 3.267638 -6.068148 0.000000
       vertex 2.750000 6.000000 0.000000
       vertex 3.267638 6.068148 0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 3.267638 -6.068148 0.000000
-      vertex 2.750000 -6.000000 0.000000
-      vertex 2.750000 6.000000 0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 3.750000 -6.267949 0.000000
-      vertex 3.750000 6.267949 0.000000
-      vertex 4.164214 6.585786 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
@@ -695,15 +688,15 @@ solid DIN-Rail-Holder (Meshed)
   facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 4.164214 -6.585786 0.000000
-      vertex 3.750000 -6.267949 0.000000
+      vertex 3.750000 6.267949 0.000000
       vertex 4.164214 6.585786 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex 4.482051 -7.000000 0.000000
-      vertex 4.164214 6.585786 0.000000
-      vertex 4.482051 7.000000 0.000000
+      vertex 4.164214 -6.585786 0.000000
+      vertex 3.750000 -6.267949 0.000000
+      vertex 3.750000 6.267949 0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
@@ -715,19 +708,26 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex 4.681852 -7.482362 0.000000
       vertex 4.482051 -7.000000 0.000000
-      vertex 4.482051 7.000000 0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex 4.681852 -7.482362 0.000000
       vertex 4.482051 7.000000 0.000000
       vertex 4.681852 7.482362 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 4.482051 -7.000000 0.000000
+      vertex 4.164214 6.585786 0.000000
+      vertex 4.482051 7.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 4.681852 -7.482362 0.000000
+      vertex 4.482051 -7.000000 0.000000
+      vertex 4.681852 7.482362 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex -9.000000 -25.500000 -0.000000
       vertex -9.000000 25.500000 0.000000
@@ -762,11 +762,18 @@ solid DIN-Rail-Holder (Meshed)
       vertex -8.931851 -26.017637 -0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex -7.517638 -27.431852 -0.000000
       vertex -8.000000 -27.232050 -0.000000
       vertex -8.414213 -26.914213 -0.000000
+      vertex -8.931851 -26.017637 -0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex -8.000000 -27.232050 -0.000000
+      vertex -8.931851 -26.017637 -0.000000
+      vertex -9.000000 -25.500000 -0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
@@ -776,14 +783,14 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.017949 -9.000000 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex -1.166726 -21.333273 -0.000000
       vertex -9.000000 -25.500000 -0.000000
       vertex 0.818148 -8.517638 0.000000
     endloop
   endfacet
-  facet normal 0.000000 -0.000000 -1.000000
+  facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex -1.428942 -21.674999 -0.000000
       vertex -9.000000 -25.500000 -0.000000
@@ -806,13 +813,6 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex -1.593778 -22.072948 -0.000000
-      vertex -9.000000 -25.500000 -0.000000
-      vertex -1.428942 -21.674999 -0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
       vertex -0.427051 -20.906223 -0.000000
       vertex -0.825000 -21.071058 -0.000000
       vertex 1.335786 -9.414213 0.000000
@@ -823,27 +823,34 @@ solid DIN-Rail-Holder (Meshed)
       vertex -0.427051 -20.906223 -0.000000
       vertex 1.335786 -9.414213 0.000000
       vertex 1.750000 -9.732051 0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 -1.000000
+    outer loop
+      vertex -1.593778 -22.072948 -0.000000
+      vertex -9.000000 -25.500000 -0.000000
+      vertex -1.428942 -21.674999 -0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex -7.000000 -27.500000 -0.000000
+      vertex -8.000000 -27.232050 -0.000000
+      vertex -9.000000 -25.500000 -0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex -7.000000 -27.500000 -0.000000
       vertex -7.517638 -27.431852 -0.000000
-      vertex -8.414213 -26.914213 -0.000000
+      vertex -8.000000 -27.232050 -0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 0.000000 -1.000000
     outer loop
-      vertex -7.000000 -27.500000 -0.000000
-      vertex -8.931851 -26.017637 -0.000000
+      vertex -1.650000 -22.500000 -0.000000
       vertex -9.000000 -25.500000 -0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex -7.000000 -27.500000 -0.000000
-      vertex -8.414213 -26.914213 -0.000000
-      vertex -8.931851 -26.017637 -0.000000
+      vertex -1.593778 -22.072948 -0.000000
     endloop
   endfacet
   facet normal 0.000000 -0.000000 -1.000000
@@ -860,13 +867,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 2.232362 -9.931851 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex -1.650000 -22.500000 -0.000000
-      vertex -9.000000 -25.500000 -0.000000
-      vertex -1.593778 -22.072948 -0.000000
-    endloop
-  endfacet
   facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex 0.427051 -20.906223 -0.000000
@@ -881,18 +881,25 @@ solid DIN-Rail-Holder (Meshed)
       vertex 2.750000 -10.000000 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 0.000000 -1.000000
+    outer loop
+      vertex -1.593778 -22.927052 -0.000000
+      vertex -9.000000 -25.500000 -0.000000
+      vertex -1.650000 -22.500000 -0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 -0.000000 -1.000000
     outer loop
       vertex -1.593778 -22.927052 -0.000000
       vertex -7.000000 -27.500000 -0.000000
       vertex -9.000000 -25.500000 -0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 0.000000 -1.000000
     outer loop
+      vertex -1.428942 -23.325001 -0.000000
+      vertex -7.000000 -27.500000 -0.000000
       vertex -1.593778 -22.927052 -0.000000
-      vertex -9.000000 -25.500000 -0.000000
-      vertex -1.650000 -22.500000 -0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
@@ -911,13 +918,6 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex -1.428942 -23.325001 -0.000000
-      vertex -7.000000 -27.500000 -0.000000
-      vertex -1.593778 -22.927052 -0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
       vertex 1.166726 -21.333273 -0.000000
       vertex 0.825000 -21.071058 -0.000000
       vertex 3.267638 -9.931851 0.000000
@@ -930,11 +930,18 @@ solid DIN-Rail-Holder (Meshed)
       vertex 3.750000 -9.732051 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 -0.000000 -1.000000
     outer loop
       vertex -1.166726 -23.666727 -0.000000
       vertex -7.000000 -27.500000 -0.000000
       vertex -1.428942 -23.325001 -0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 -0.000000 -1.000000
+    outer loop
+      vertex -0.825000 -23.928942 -0.000000
+      vertex -7.000000 -27.500000 -0.000000
+      vertex -1.166726 -23.666727 -0.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
@@ -944,84 +951,77 @@ solid DIN-Rail-Holder (Meshed)
       vertex 3.750000 -9.732051 0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
-    outer loop
-      vertex -0.825000 -23.928942 -0.000000
-      vertex -7.000000 -27.500000 -0.000000
-      vertex -1.166726 -23.666727 -0.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal -0.000000 -0.000000 -1.000000
     outer loop
       vertex -0.427051 -24.093777 -0.000000
       vertex -7.000000 -27.500000 -0.000000
       vertex -0.825000 -23.928942 -0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex 0.000000 -24.150000 -0.000000
       vertex -7.000000 -27.500000 -0.000000
       vertex -0.427051 -24.093777 -0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 7.000000 -27.500000 -0.000000
       vertex 1.428942 -23.325001 -0.000000
       vertex 1.593778 -22.927052 -0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex 7.000000 -27.500000 -0.000000
       vertex 1.166726 -23.666727 -0.000000
       vertex 1.428942 -23.325001 -0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex 7.000000 -27.500000 -0.000000
       vertex 0.825000 -23.928942 -0.000000
       vertex 1.166726 -23.666727 -0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex 7.000000 -27.500000 -0.000000
       vertex 0.427051 -24.093777 -0.000000
       vertex 0.825000 -23.928942 -0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex 7.000000 -27.500000 -0.000000
       vertex 0.000000 -24.150000 -0.000000
       vertex 0.427051 -24.093777 -0.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex 7.000000 -27.500000 -0.000000
       vertex -7.000000 -27.500000 -0.000000
       vertex 0.000000 -24.150000 -0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 9.000000 -25.500000 -0.000000
       vertex 1.593778 -22.072948 -0.000000
       vertex 1.428942 -21.674999 -0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 9.000000 -25.500000 -0.000000
       vertex 1.650000 -22.500000 -0.000000
       vertex 1.593778 -22.072948 -0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 9.000000 -25.500000 -0.000000
       vertex 1.593778 -22.927052 -0.000000
@@ -1035,7 +1035,7 @@ solid DIN-Rail-Holder (Meshed)
       vertex 3.750000 -9.732051 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 -0.000000 -1.000000
     outer loop
       vertex 9.000000 -25.500000 -0.000000
       vertex 7.000000 -27.500000 -0.000000
@@ -1063,7 +1063,7 @@ solid DIN-Rail-Holder (Meshed)
       vertex 4.482051 -9.000000 0.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 -1.000000
+  facet normal 0.000000 0.000000 -1.000000
     outer loop
       vertex 9.000000 -25.500000 -0.000000
       vertex 3.750000 -9.732051 0.000000
@@ -1072,14 +1072,7 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal -0.000000 0.000000 -1.000000
     outer loop
-      vertex 8.000000 -27.232050 -0.000000
       vertex 7.517638 -27.431852 -0.000000
-      vertex 7.000000 -27.500000 -0.000000
-    endloop
-  endfacet
-  facet normal -0.000000 0.000000 -1.000000
-    outer loop
-      vertex 8.000000 -27.232050 -0.000000
       vertex 7.000000 -27.500000 -0.000000
       vertex 9.000000 -25.500000 -0.000000
     endloop
@@ -1093,15 +1086,22 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal -0.000000 0.000000 -1.000000
     outer loop
-      vertex 8.732051 -26.500000 -0.000000
+      vertex 8.414213 -26.914213 -0.000000
       vertex 8.000000 -27.232050 -0.000000
+      vertex 7.517638 -27.431852 -0.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 -1.000000
+    outer loop
+      vertex 8.414213 -26.914213 -0.000000
+      vertex 7.517638 -27.431852 -0.000000
       vertex 9.000000 -25.500000 -0.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 -1.000000
     outer loop
       vertex 8.414213 -26.914213 -0.000000
-      vertex 8.000000 -27.232050 -0.000000
+      vertex 9.000000 -25.500000 -0.000000
       vertex 8.732051 -26.500000 -0.000000
     endloop
   endfacet
@@ -1133,59 +1133,59 @@ solid DIN-Rail-Holder (Meshed)
       vertex 4.681852 7.482362 0.000000
     endloop
   endfacet
-  facet normal -0.152077 0.988369 0.000000
+  facet normal -0.152256 0.988341 0.000000
     outer loop
       vertex 8.500000 -14.000000 9.322876
-      vertex 8.650310 -13.976872 9.129813
+      vertex 8.650481 -13.976818 9.129562
       vertex 8.500000 -14.000000 7.000000
     endloop
   endfacet
-  facet normal -0.130528 0.991443 -0.001554
+  facet normal -0.130528 0.991443 -0.001569
     outer loop
       vertex 8.500000 -14.000000 7.000000
-      vertex 8.650310 -13.976872 9.129813
+      vertex 8.650481 -13.976818 9.129562
       vertex 8.629410 -13.982963 7.000000
     endloop
   endfacet
-  facet normal -0.382680 0.923880 0.001113
+  facet normal -0.382680 0.923880 0.001121
     outer loop
       vertex 8.629410 -13.982963 7.000000
-      vertex 8.650310 -13.976872 9.129813
+      vertex 8.650481 -13.976818 9.129562
       vertex 8.750000 -13.933013 7.000000
     endloop
   endfacet
-  facet normal -0.608759 0.793354 0.001619
+  facet normal -0.608759 0.793354 0.001624
     outer loop
       vertex 8.750000 -13.933013 7.000000
-      vertex 8.776540 -13.916564 8.918644
+      vertex 8.776645 -13.916494 8.918441
       vertex 8.853554 -13.853554 7.000000
     endloop
   endfacet
-  facet normal -0.433446 0.901178 -0.001730
+  facet normal -0.433726 0.901043 -0.001734
     outer loop
-      vertex 8.650310 -13.976872 9.129813
-      vertex 8.776540 -13.916564 8.918644
+      vertex 8.650481 -13.976818 9.129562
+      vertex 8.776645 -13.916494 8.918441
       vertex 8.750000 -13.933013 7.000000
     endloop
   endfacet
-  facet normal -0.793352 0.608757 -0.002559
+  facet normal -0.793352 0.608757 -0.002570
     outer loop
       vertex 8.853554 -13.853554 7.000000
-      vertex 8.944645 -13.728672 8.467285
+      vertex 8.944686 -13.728593 8.467116
       vertex 8.933013 -13.750000 7.000000
     endloop
   endfacet
-  facet normal -0.923879 0.382680 0.001762
+  facet normal -0.923879 0.382680 0.001767
     outer loop
       vertex 8.933013 -13.750000 7.000000
-      vertex 8.944645 -13.728672 8.467285
+      vertex 8.944686 -13.728593 8.467116
       vertex 8.982963 -13.629410 7.000000
     endloop
   endfacet
-  facet normal -0.755671 0.654892 -0.008825
+  facet normal -0.755805 0.654737 -0.008819
     outer loop
-      vertex 8.776540 -13.916564 8.918644
-      vertex 8.944645 -13.728672 8.467285
+      vertex 8.776645 -13.916494 8.918441
+      vertex 8.944686 -13.728593 8.467116
       vertex 8.853554 -13.853554 7.000000
     endloop
   endfacet
@@ -1196,9 +1196,9 @@ solid DIN-Rail-Holder (Meshed)
       vertex 9.000000 -13.500000 7.000000
     endloop
   endfacet
-  facet normal -0.976794 0.213898 -0.011038
+  facet normal -0.976809 0.213827 -0.011029
     outer loop
-      vertex 8.944645 -13.728672 8.467285
+      vertex 8.944686 -13.728593 8.467116
       vertex 9.000000 -13.500000 8.000000
       vertex 8.982963 -13.629410 7.000000
     endloop
@@ -1287,18 +1287,18 @@ solid DIN-Rail-Holder (Meshed)
       vertex 7.517638 27.431852 8.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
+  facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex -1.000000 -12.500000 7.000000
+      vertex 1.146447 -14.146446 7.000000
       vertex -0.500000 -12.000000 7.000000
-      vertex -0.982963 -12.370590 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 8.750000 -13.933013 7.000000
-      vertex 8.853554 -13.853554 7.000000
-      vertex 8.933013 -13.750000 7.000000
+      vertex -1.000000 -12.500000 7.000000
+      vertex -0.750000 -12.066987 7.000000
+      vertex -0.933013 -12.250000 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -1319,63 +1319,63 @@ solid DIN-Rail-Holder (Meshed)
     outer loop
       vertex 8.629410 -13.982963 7.000000
       vertex 8.750000 -13.933013 7.000000
-      vertex 8.933013 -13.750000 7.000000
+      vertex 8.853554 -13.853554 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 8.500000 -14.000000 7.000000
-      vertex 8.933013 -13.750000 7.000000
-      vertex 8.982963 -13.629410 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex 8.982963 13.629410 7.000000
+      vertex 8.629410 13.982963 7.000000
       vertex 8.933013 13.750000 7.000000
       vertex 8.853554 13.853554 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 8.500000 -14.000000 7.000000
-      vertex 8.982963 -13.629410 7.000000
-      vertex 9.000000 -13.500000 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex 8.982963 13.629410 7.000000
+      vertex 8.629410 13.982963 7.000000
       vertex 8.853554 13.853554 7.000000
       vertex 8.750000 13.933013 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 8.500000 -14.000000 7.000000
       vertex 8.629410 -13.982963 7.000000
+      vertex 8.853554 -13.853554 7.000000
       vertex 8.933013 -13.750000 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 8.982963 13.629410 7.000000
-      vertex 8.750000 13.933013 7.000000
-      vertex 8.629410 13.982963 7.000000
+      vertex 8.629410 -13.982963 7.000000
+      vertex 8.933013 -13.750000 7.000000
+      vertex 9.000000 -13.500000 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 9.000000 13.500000 7.000000
-      vertex 8.629410 13.982963 7.000000
+      vertex 8.500000 -14.000000 7.000000
+      vertex 8.629410 -13.982963 7.000000
+      vertex 9.000000 -13.500000 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
       vertex 8.500000 14.000000 7.000000
+      vertex 8.982963 13.629410 7.000000
+      vertex 8.933013 13.750000 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex 8.500000 14.000000 7.000000
+      vertex 8.933013 13.750000 7.000000
+      vertex 8.629410 13.982963 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
       vertex 9.000000 13.500000 7.000000
       vertex 8.982963 13.629410 7.000000
-      vertex 8.629410 13.982963 7.000000
+      vertex 8.500000 14.000000 7.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -1394,23 +1394,16 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 5.933012 -11.750000 7.000000
-      vertex 8.500000 -14.000000 7.000000
-      vertex 9.000000 -13.500000 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
       vertex 5.933012 11.750000 7.000000
       vertex 9.000000 13.500000 7.000000
       vertex 8.500000 14.000000 7.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 1.000000
+  facet normal 0.000000 0.000000 1.000000
     outer loop
       vertex 5.933012 -11.750000 7.000000
+      vertex 8.500000 -14.000000 7.000000
       vertex 9.000000 -13.500000 7.000000
-      vertex 5.982963 -11.629410 7.000000
     endloop
   endfacet
   facet normal 0.000000 -0.000000 1.000000
@@ -1422,9 +1415,9 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
-      vertex 5.853553 -11.853554 7.000000
-      vertex 8.500000 -14.000000 7.000000
       vertex 5.933012 -11.750000 7.000000
+      vertex 9.000000 -13.500000 7.000000
+      vertex 5.982963 -11.629410 7.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -1432,6 +1425,13 @@ solid DIN-Rail-Holder (Meshed)
       vertex 5.750000 11.933013 7.000000
       vertex 5.853553 11.853554 7.000000
       vertex 8.500000 14.000000 7.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 1.000000
+    outer loop
+      vertex 5.853553 -11.853554 7.000000
+      vertex 8.500000 -14.000000 7.000000
+      vertex 5.933012 -11.750000 7.000000
     endloop
   endfacet
   facet normal 0.000000 -0.000000 1.000000
@@ -1555,16 +1555,16 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 -0.000000 1.000000
     outer loop
-      vertex -0.500000 12.000000 7.000000
-      vertex 1.146447 14.146446 7.000000
-      vertex -1.000000 12.500000 7.000000
+      vertex 1.146447 -14.146446 7.000000
+      vertex 1.250000 -14.066987 7.000000
+      vertex -0.500000 -12.000000 7.000000
     endloop
   endfacet
   facet normal 0.000000 -0.000000 1.000000
     outer loop
-      vertex 1.146447 -14.146446 7.000000
-      vertex 1.250000 -14.066987 7.000000
-      vertex -0.500000 -12.000000 7.000000
+      vertex -0.500000 12.000000 7.000000
+      vertex 1.146447 14.146446 7.000000
+      vertex -1.000000 12.500000 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -1586,13 +1586,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex -0.500000 12.000000 7.000000
       vertex 1.500000 14.000000 7.000000
       vertex 1.370590 14.017037 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -0.853553 -12.146446 7.000000
-      vertex -0.629410 -12.017037 7.000000
-      vertex -0.750000 -12.066987 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -1602,38 +1595,31 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.500000 14.000000 7.000000
     endloop
   endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -0.933013 -12.250000 7.000000
+      vertex -0.750000 -12.066987 7.000000
+      vertex -0.853553 -12.146446 7.000000
+    endloop
+  endfacet
   facet normal -0.000000 -0.000000 1.000000
     outer loop
-      vertex -0.629410 12.017037 7.000000
+      vertex -0.853553 12.146446 7.000000
       vertex -0.500000 12.000000 7.000000
       vertex -1.000000 12.500000 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -0.933013 12.250000 7.000000
+      vertex -0.853553 12.146446 7.000000
       vertex -1.000000 12.500000 7.000000
       vertex -0.982963 12.370590 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -0.933013 -12.250000 7.000000
-      vertex -0.500000 -12.000000 7.000000
-      vertex -0.629410 -12.017037 7.000000
-    endloop
-  endfacet
-  facet normal -0.000000 -0.000000 1.000000
-    outer loop
       vertex -0.853553 12.146446 7.000000
-      vertex -0.629410 12.017037 7.000000
-      vertex -1.000000 12.500000 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -0.853553 12.146446 7.000000
-      vertex -1.000000 12.500000 7.000000
+      vertex -0.982963 12.370590 7.000000
       vertex -0.933013 12.250000 7.000000
     endloop
   endfacet
@@ -1646,9 +1632,9 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -0.933013 -12.250000 7.000000
-      vertex -0.629410 -12.017037 7.000000
-      vertex -0.853553 -12.146446 7.000000
+      vertex -0.853553 12.146446 7.000000
+      vertex -0.629410 12.017037 7.000000
+      vertex -0.500000 12.000000 7.000000
     endloop
   endfacet
   facet normal 0.000000 -0.000000 1.000000
@@ -1660,9 +1646,30 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -0.982963 -12.370590 7.000000
+      vertex -1.000000 -12.500000 7.000000
       vertex -0.500000 -12.000000 7.000000
+      vertex -0.629410 -12.017037 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -1.000000 -12.500000 7.000000
+      vertex -0.629410 -12.017037 7.000000
+      vertex -0.750000 -12.066987 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -1.000000 -12.500000 7.000000
       vertex -0.933013 -12.250000 7.000000
+      vertex -0.982963 -12.370590 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex 8.933013 -13.750000 7.000000
+      vertex 8.982963 -13.629410 7.000000
+      vertex 9.000000 -13.500000 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -1686,66 +1693,59 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.017037 -14.370590 7.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 1.000000
+  facet normal 0.993055 0.000000 0.117649
     outer loop
-      vertex -1.000000 -12.500000 7.000000
-      vertex 1.146447 -14.146446 7.000000
-      vertex -0.500000 -12.000000 7.000000
-    endloop
-  endfacet
-  facet normal 0.993055 0.000000 0.117650
-    outer loop
-      vertex 8.944634 13.728692 8.467328
+      vertex 8.944635 13.728689 8.467323
       vertex 9.000000 13.500000 8.000000
       vertex 9.000000 25.500000 8.000000
     endloop
   endfacet
   facet normal 0.991445 0.000519 0.130527
     outer loop
-      vertex 8.944634 13.728692 8.467328
+      vertex 8.944635 13.728689 8.467323
       vertex 9.000000 25.500000 8.000000
       vertex 8.931851 25.500000 8.517638
     endloop
   endfacet
   facet normal 0.923879 0.000860 0.382683
     outer loop
-      vertex 8.776498 13.916592 8.918725
+      vertex 8.776500 13.916591 8.918721
       vertex 8.931851 25.500000 8.517638
       vertex 8.732051 25.500000 9.000000
     endloop
   endfacet
-  facet normal 0.937038 -0.000475 0.349226
+  facet normal 0.937039 -0.000475 0.349224
     outer loop
-      vertex 8.776498 13.916592 8.918725
-      vertex 8.944634 13.728692 8.467328
+      vertex 8.776500 13.916591 8.918721
+      vertex 8.944635 13.728689 8.467323
       vertex 8.931851 25.500000 8.517638
     endloop
   endfacet
-  facet normal 0.861258 -0.000261 0.508167
+  facet normal 0.861774 -0.000253 0.507293
     outer loop
-      vertex 8.663322 13.972573 9.110567
-      vertex 8.776498 13.916592 8.918725
+      vertex 8.665572 13.971790 9.107189
+      vertex 8.776500 13.916591 8.918721
       vertex 8.732051 25.500000 9.000000
     endloop
   endfacet
   facet normal 0.793352 0.001487 0.608762
     outer loop
-      vertex 8.584769 13.992762 9.220044
+      vertex 8.585999 13.992549 9.218445
       vertex 8.732051 25.500000 9.000000
       vertex 8.414213 25.500000 9.414213
     endloop
   endfacet
-  facet normal 0.812549 0.000746 0.582892
+  facet normal 0.813432 0.000718 0.581659
     outer loop
-      vertex 8.584769 13.992762 9.220044
-      vertex 8.663322 13.972573 9.110567
+      vertex 8.585999 13.992549 9.218445
+      vertex 8.665572 13.971790 9.107189
       vertex 8.732051 25.500000 9.000000
     endloop
   endfacet
-  facet normal 0.771644 0.000704 0.636054
+  facet normal 0.771968 0.000710 0.635661
     outer loop
       vertex 8.500000 14.000000 9.322876
-      vertex 8.584769 13.992762 9.220044
+      vertex 8.585999 13.992549 9.218445
       vertex 8.414213 25.500000 9.414213
     endloop
   endfacet
@@ -1808,69 +1808,69 @@ solid DIN-Rail-Holder (Meshed)
   facet normal -0.923879 -0.382680 0.001760
     outer loop
       vertex 8.982963 13.629410 7.000000
-      vertex 8.944634 13.728692 8.467328
+      vertex 8.944635 13.728689 8.467323
       vertex 8.933013 13.750000 7.000000
     endloop
   endfacet
   facet normal -0.793352 -0.608757 -0.002557
     outer loop
       vertex 8.933013 13.750000 7.000000
-      vertex 8.944634 13.728692 8.467328
+      vertex 8.944635 13.728689 8.467323
       vertex 8.853554 13.853554 7.000000
     endloop
   endfacet
-  facet normal -0.976790 -0.213916 -0.011041
+  facet normal -0.976790 -0.213915 -0.011041
     outer loop
       vertex 9.000000 13.500000 8.000000
-      vertex 8.944634 13.728692 8.467328
+      vertex 8.944635 13.728689 8.467323
       vertex 8.982963 13.629410 7.000000
     endloop
   endfacet
   facet normal -0.608759 -0.793354 0.001617
     outer loop
       vertex 8.853554 13.853554 7.000000
-      vertex 8.776498 13.916592 8.918725
+      vertex 8.776500 13.916591 8.918721
       vertex 8.750000 13.933013 7.000000
     endloop
   endfacet
-  facet normal -0.755627 -0.654943 -0.008828
+  facet normal -0.755632 -0.654937 -0.008828
     outer loop
-      vertex 8.944634 13.728692 8.467328
-      vertex 8.776498 13.916592 8.918725
+      vertex 8.944635 13.728689 8.467323
+      vertex 8.776500 13.916591 8.918721
       vertex 8.853554 13.853554 7.000000
     endloop
   endfacet
-  facet normal -0.382680 -0.923880 0.001601
+  facet normal -0.382680 -0.923880 0.001669
     outer loop
       vertex 8.750000 13.933013 7.000000
-      vertex 8.663322 13.972573 9.110567
+      vertex 8.665572 13.971790 9.107189
       vertex 8.629410 13.982963 7.000000
     endloop
   endfacet
-  facet normal -0.445426 -0.895318 -0.001511
+  facet normal -0.447512 -0.894277 -0.001473
     outer loop
-      vertex 8.776498 13.916592 8.918725
-      vertex 8.663322 13.972573 9.110567
+      vertex 8.776500 13.916591 8.918721
+      vertex 8.665572 13.971790 9.107189
       vertex 8.750000 13.933013 7.000000
     endloop
   endfacet
-  facet normal -0.130528 -0.991443 0.001751
+  facet normal -0.130528 -0.991443 0.001730
     outer loop
       vertex 8.629410 13.982963 7.000000
-      vertex 8.584769 13.992762 9.220044
+      vertex 8.585999 13.992549 9.218445
       vertex 8.500000 14.000000 7.000000
     endloop
   endfacet
-  facet normal -0.249895 -0.968273 -0.000751
+  facet normal -0.253445 -0.967349 -0.000779
     outer loop
-      vertex 8.663322 13.972573 9.110567
-      vertex 8.584769 13.992762 9.220044
+      vertex 8.665572 13.971790 9.107189
+      vertex 8.585999 13.992549 9.218445
       vertex 8.629410 13.982963 7.000000
     endloop
   endfacet
-  facet normal -0.085080 -0.996374 0.000000
+  facet normal -0.086318 -0.996268 0.000000
     outer loop
-      vertex 8.584769 13.992762 9.220044
+      vertex 8.585999 13.992549 9.218445
       vertex 8.500000 14.000000 9.322876
       vertex 8.500000 14.000000 7.000000
     endloop
@@ -2351,13 +2351,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex -2.700048 -20.877583 10.000000
     endloop
   endfacet
-  facet normal 0.000000 -0.000000 1.000000
-    outer loop
-      vertex -2.313201 24.638130 10.000000
-      vertex -1.692611 25.156609 10.000000
-      vertex -7.000000 25.500000 10.000000
-    endloop
-  endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
       vertex -7.000000 25.500000 10.000000
@@ -2379,6 +2372,13 @@ solid DIN-Rail-Holder (Meshed)
       vertex -0.982963 -12.370590 10.000000
     endloop
   endfacet
+  facet normal 0.000000 -0.000000 1.000000
+    outer loop
+      vertex -2.313201 24.638130 10.000000
+      vertex -1.692611 25.156609 10.000000
+      vertex -7.000000 25.500000 10.000000
+    endloop
+  endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
       vertex -7.000000 25.500000 10.000000
@@ -2386,18 +2386,18 @@ solid DIN-Rail-Holder (Meshed)
       vertex -2.313201 24.638130 10.000000
     endloop
   endfacet
-  facet normal -0.000000 -0.000000 1.000000
-    outer loop
-      vertex 1.017037 14.370590 10.000000
-      vertex 1.066987 14.250000 10.000000
-      vertex 1.000000 14.500000 10.000000
-    endloop
-  endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
       vertex -7.000000 -25.500000 10.000000
       vertex -3.024137 -21.618471 10.000000
       vertex -2.700048 -20.877583 10.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -1.551110 -19.758366 10.000000
+      vertex -0.801983 -19.453802 10.000000
+      vertex -1.000000 -18.000000 10.000000
     endloop
   endfacet
   facet normal 0.000000 -0.000000 1.000000
@@ -2409,16 +2409,16 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -1.551110 -19.758366 10.000000
-      vertex -0.801983 -19.453802 10.000000
-      vertex -1.000000 -18.000000 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
       vertex -7.000000 25.500000 10.000000
       vertex -3.066167 23.221886 10.000000
       vertex -2.781337 23.978737 10.000000
+    endloop
+  endfacet
+  facet normal -0.000000 -0.000000 1.000000
+    outer loop
+      vertex 1.066987 14.250000 10.000000
+      vertex 1.146447 14.146446 10.000000
+      vertex 1.017037 14.370590 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -2437,23 +2437,16 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -7.000000 25.500000 10.000000
-      vertex -3.024137 21.618471 10.000000
-      vertex -3.148918 22.417459 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
       vertex -7.000000 -25.500000 10.000000
       vertex -3.148918 -22.417459 10.000000
       vertex -3.024137 -21.618471 10.000000
     endloop
   endfacet
-  facet normal -0.000000 -0.000000 1.000000
+  facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 1.066987 14.250000 10.000000
-      vertex 1.146447 14.146446 10.000000
-      vertex 1.000000 14.500000 10.000000
+      vertex -7.000000 25.500000 10.000000
+      vertex -3.024137 21.618471 10.000000
+      vertex -3.148918 22.417459 10.000000
     endloop
   endfacet
   facet normal 0.000000 -0.000000 1.000000
@@ -2489,6 +2482,13 @@ solid DIN-Rail-Holder (Meshed)
       vertex -7.000000 25.500000 10.000000
       vertex -2.700048 20.877583 10.000000
       vertex -3.024137 21.618471 10.000000
+    endloop
+  endfacet
+  facet normal -0.000000 -0.000000 1.000000
+    outer loop
+      vertex 1.017037 14.370590 10.000000
+      vertex 1.370590 14.017037 10.000000
+      vertex 1.000000 14.500000 10.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -2516,7 +2516,7 @@ solid DIN-Rail-Holder (Meshed)
     outer loop
       vertex 1.146447 14.146446 10.000000
       vertex 1.370590 14.017037 10.000000
-      vertex 1.000000 14.500000 10.000000
+      vertex 1.017037 14.370590 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -2526,13 +2526,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.000000 -18.000000 10.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 1.000000
-    outer loop
-      vertex 1.000000 14.500000 10.000000
-      vertex 1.500000 14.000000 10.000000
-      vertex 1.000000 18.000000 10.000000
-    endloop
-  endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
       vertex -7.000000 -25.500000 10.000000
@@ -2540,18 +2533,18 @@ solid DIN-Rail-Holder (Meshed)
       vertex -2.781337 -23.978737 10.000000
     endloop
   endfacet
-  facet normal -0.000000 -0.000000 1.000000
+  facet normal -0.000000 0.000000 1.000000
     outer loop
-      vertex 1.370590 14.017037 10.000000
-      vertex 1.500000 14.000000 10.000000
       vertex 1.000000 14.500000 10.000000
+      vertex 1.500000 14.000000 10.000000
+      vertex 1.000000 18.000000 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
-      vertex 3.024137 21.618471 10.000000
-      vertex 7.000000 14.000000 10.000000
-      vertex 7.000000 25.500000 10.000000
+      vertex 1.000000 -18.000000 10.000000
+      vertex 2.198010 -20.243620 10.000000
+      vertex 7.000000 -14.000000 10.000000
     endloop
   endfacet
   facet normal -0.000000 -0.000000 1.000000
@@ -2561,11 +2554,25 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.000000 -18.000000 10.000000
     endloop
   endfacet
-  facet normal 0.000000 -0.000000 1.000000
+  facet normal -0.000000 -0.000000 1.000000
     outer loop
+      vertex 1.370590 14.017037 10.000000
       vertex 1.500000 14.000000 10.000000
+      vertex 1.000000 14.500000 10.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -7.000000 -25.500000 10.000000
+      vertex -1.692611 -25.156609 10.000000
+      vertex -2.313201 -24.638130 10.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 1.000000
+    outer loop
+      vertex 3.024137 21.618471 10.000000
       vertex 7.000000 14.000000 10.000000
-      vertex 1.000000 18.000000 10.000000
+      vertex 7.000000 25.500000 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -2573,13 +2580,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 2.198010 20.243620 10.000000
       vertex 7.000000 14.000000 10.000000
       vertex 2.700048 20.877583 10.000000
-    endloop
-  endfacet
-  facet normal -0.000000 0.000000 1.000000
-    outer loop
-      vertex 1.000000 -18.000000 10.000000
-      vertex 2.198010 -20.243620 10.000000
-      vertex 7.000000 -14.000000 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -2596,13 +2596,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 2.198010 20.243620 10.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -7.000000 -25.500000 10.000000
-      vertex -1.692611 -25.156609 10.000000
-      vertex -2.313201 -24.638130 10.000000
-    endloop
-  endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex 2.198010 -20.243620 10.000000
@@ -2610,11 +2603,11 @@ solid DIN-Rail-Holder (Meshed)
       vertex 7.000000 -14.000000 10.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
+  facet normal 0.000000 -0.000000 1.000000
     outer loop
-      vertex -0.853553 12.146446 10.000000
-      vertex -0.853553 -12.146446 10.000000
-      vertex -0.750000 12.066987 10.000000
+      vertex 1.500000 14.000000 10.000000
+      vertex 7.000000 14.000000 10.000000
+      vertex 1.000000 18.000000 10.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -2622,6 +2615,13 @@ solid DIN-Rail-Holder (Meshed)
       vertex -7.000000 -25.500000 10.000000
       vertex -0.960469 -25.500000 10.000000
       vertex -1.692611 -25.156609 10.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -0.853553 12.146446 10.000000
+      vertex -0.853553 -12.146446 10.000000
+      vertex -0.750000 12.066987 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -2684,7 +2684,7 @@ solid DIN-Rail-Holder (Meshed)
     outer loop
       vertex -0.801983 19.453802 10.000000
       vertex -1.000000 18.000000 10.000000
-      vertex 0.000000 19.350000 10.000000
+      vertex -0.000000 19.350000 10.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -2701,67 +2701,11 @@ solid DIN-Rail-Holder (Meshed)
       vertex -0.629410 12.017037 10.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -0.629410 12.017037 10.000000
-      vertex -0.500000 -12.000000 10.000000
-      vertex -0.500000 12.000000 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -0.629410 -12.017037 10.000000
-      vertex -0.500000 -12.000000 10.000000
-      vertex -0.629410 12.017037 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex 3.024137 21.618471 10.000000
-      vertex 7.000000 25.500000 10.000000
-      vertex 3.148918 22.417459 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.000000 1.000000
-    outer loop
-      vertex 3.148918 22.417459 10.000000
-      vertex 7.000000 25.500000 10.000000
-      vertex 3.066167 23.221886 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.000000 1.000000
-    outer loop
-      vertex 3.066167 23.221886 10.000000
-      vertex 7.000000 25.500000 10.000000
-      vertex 2.781337 23.978737 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.000000 1.000000
-    outer loop
-      vertex 2.781337 23.978737 10.000000
-      vertex 7.000000 25.500000 10.000000
-      vertex 2.313201 24.638130 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.000000 1.000000
-    outer loop
-      vertex 2.313201 24.638130 10.000000
-      vertex 7.000000 25.500000 10.000000
-      vertex 1.692611 25.156609 10.000000
-    endloop
-  endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex 3.024137 -21.618471 10.000000
       vertex 7.000000 -25.500000 10.000000
       vertex 7.000000 -14.000000 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.000000 1.000000
-    outer loop
-      vertex 1.692611 25.156609 10.000000
-      vertex 7.000000 25.500000 10.000000
-      vertex 0.960469 25.500000 10.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -2771,6 +2715,13 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.692611 -25.156609 10.000000
     endloop
   endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -0.629410 12.017037 10.000000
+      vertex -0.500000 -12.000000 10.000000
+      vertex -0.500000 12.000000 10.000000
+    endloop
+  endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex 1.692611 -25.156609 10.000000
@@ -2785,6 +2736,13 @@ solid DIN-Rail-Holder (Meshed)
       vertex 2.781337 -23.978737 10.000000
     endloop
   endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex 3.024137 21.618471 10.000000
+      vertex 7.000000 25.500000 10.000000
+      vertex 3.148918 22.417459 10.000000
+    endloop
+  endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex 2.781337 -23.978737 10.000000
@@ -2792,11 +2750,32 @@ solid DIN-Rail-Holder (Meshed)
       vertex 3.066167 -23.221886 10.000000
     endloop
   endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -0.629410 -12.017037 10.000000
+      vertex -0.500000 -12.000000 10.000000
+      vertex -0.629410 12.017037 10.000000
+    endloop
+  endfacet
+  facet normal 0.000000 -0.000000 1.000000
+    outer loop
+      vertex 3.148918 22.417459 10.000000
+      vertex 7.000000 25.500000 10.000000
+      vertex 3.066167 23.221886 10.000000
+    endloop
+  endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex 3.066167 -23.221886 10.000000
       vertex 7.000000 -25.500000 10.000000
       vertex 3.148918 -22.417459 10.000000
+    endloop
+  endfacet
+  facet normal 0.000000 -0.000000 1.000000
+    outer loop
+      vertex 3.066167 23.221886 10.000000
+      vertex 7.000000 25.500000 10.000000
+      vertex 2.781337 23.978737 10.000000
     endloop
   endfacet
   facet normal -0.000000 -0.000000 1.000000
@@ -2806,32 +2785,46 @@ solid DIN-Rail-Holder (Meshed)
       vertex 3.024137 -21.618471 10.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
+  facet normal 0.000000 -0.000000 1.000000
     outer loop
-      vertex -1.000000 18.000000 10.000000
-      vertex 1.000000 18.000000 10.000000
-      vertex 0.000000 19.350000 10.000000
+      vertex 2.781337 23.978737 10.000000
+      vertex 7.000000 25.500000 10.000000
+      vertex 2.313201 24.638130 10.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
+  facet normal 0.000000 -0.000000 1.000000
     outer loop
-      vertex 1.250000 -14.066987 10.000000
-      vertex 1.500000 -14.000000 10.000000
-      vertex 1.370590 -14.017037 10.000000
+      vertex 2.313201 24.638130 10.000000
+      vertex 7.000000 25.500000 10.000000
+      vertex 1.692611 25.156609 10.000000
+    endloop
+  endfacet
+  facet normal 0.000000 -0.000000 1.000000
+    outer loop
+      vertex 1.692611 25.156609 10.000000
+      vertex 7.000000 25.500000 10.000000
+      vertex 0.960469 25.500000 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
-      vertex 0.000000 19.350000 10.000000
-      vertex 1.000000 18.000000 10.000000
-      vertex 0.801983 19.453802 10.000000
+      vertex 1.146447 -14.146446 10.000000
+      vertex 1.066987 -14.250000 10.000000
+      vertex 1.250000 -14.066987 10.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 1.146447 -14.146446 10.000000
-      vertex 1.500000 -14.000000 10.000000
+      vertex 1.066987 -14.250000 10.000000
+      vertex 1.370590 -14.017037 10.000000
       vertex 1.250000 -14.066987 10.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 1.000000
+    outer loop
+      vertex -0.000000 19.350000 10.000000
+      vertex 1.000000 18.000000 10.000000
+      vertex 0.801983 19.453802 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -2839,13 +2832,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 0.801983 19.453802 10.000000
       vertex 1.000000 18.000000 10.000000
       vertex 1.551110 19.758366 10.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex 1.066987 -14.250000 10.000000
-      vertex 1.500000 -14.000000 10.000000
-      vertex 1.146447 -14.146446 10.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -2855,11 +2841,11 @@ solid DIN-Rail-Holder (Meshed)
       vertex 2.198010 20.243620 10.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 1.000000
+  facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 1.017037 -14.370590 10.000000
-      vertex 1.000000 -14.500000 10.000000
-      vertex 1.066987 -14.250000 10.000000
+      vertex -1.000000 18.000000 10.000000
+      vertex 1.000000 18.000000 10.000000
+      vertex -0.000000 19.350000 10.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -2871,9 +2857,16 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
-      vertex 1.066987 -14.250000 10.000000
+      vertex 1.370590 -14.017037 10.000000
       vertex 1.000000 -14.500000 10.000000
       vertex 1.500000 -14.000000 10.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 1.000000
+    outer loop
+      vertex 1.017037 -14.370590 10.000000
+      vertex 1.000000 -14.500000 10.000000
+      vertex 1.066987 -14.250000 10.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -2881,6 +2874,13 @@ solid DIN-Rail-Holder (Meshed)
       vertex -2.700048 20.877583 10.000000
       vertex -1.000000 12.500000 10.000000
       vertex -2.198010 20.243620 10.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 1.000000
+    outer loop
+      vertex 1.066987 -14.250000 10.000000
+      vertex 1.000000 -14.500000 10.000000
+      vertex 1.370590 -14.017037 10.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -3016,16 +3016,16 @@ solid DIN-Rail-Holder (Meshed)
       vertex -9.000000 25.500000 8.000000
     endloop
   endfacet
-  facet normal -0.991445 -0.130527 0.000000
+  facet normal -0.991445 -0.130527 -0.000000
     outer loop
-      vertex -9.000000 -25.500000 -0.000000
-      vertex -8.931851 -26.017637 -0.000000
       vertex -9.000000 -25.500000 8.000000
+      vertex -9.000000 -25.500000 -0.000000
+      vertex -8.931851 -26.017637 8.000000
     endloop
   endfacet
   facet normal -0.991445 -0.130527 0.000000
     outer loop
-      vertex -9.000000 -25.500000 8.000000
+      vertex -9.000000 -25.500000 -0.000000
       vertex -8.931851 -26.017637 -0.000000
       vertex -8.931851 -26.017637 8.000000
     endloop
@@ -6135,13 +6135,13 @@ solid DIN-Rail-Holder (Meshed)
     outer loop
       vertex -0.000000 19.350000 7.000000
       vertex -0.801983 19.453802 10.000000
-      vertex 0.000000 19.350000 10.000000
+      vertex -0.000000 19.350000 10.000000
     endloop
   endfacet
   facet normal -0.128361 0.991728 0.000000
     outer loop
       vertex -0.000000 19.350000 7.000000
-      vertex 0.000000 19.350000 10.000000
+      vertex -0.000000 19.350000 10.000000
       vertex 0.801983 19.453802 10.000000
     endloop
   endfacet
@@ -6236,18 +6236,18 @@ solid DIN-Rail-Holder (Meshed)
       vertex -7.000000 27.431852 8.517638
     endloop
   endfacet
-  facet normal 0.000000 0.923878 0.382686
-    outer loop
-      vertex -0.960469 27.431852 8.517638
-      vertex -7.000000 27.431852 8.517638
-      vertex -7.000000 27.232050 9.000000
-    endloop
-  endfacet
   facet normal 0.000000 0.991445 0.130525
     outer loop
       vertex -0.960469 27.431852 8.517638
       vertex -0.960469 27.500000 8.000000
       vertex -7.000000 27.500000 8.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.923878 0.382686
+    outer loop
+      vertex -0.960469 27.232050 9.000000
+      vertex -7.000000 27.431852 8.517638
+      vertex -7.000000 27.232050 9.000000
     endloop
   endfacet
   facet normal 0.000000 0.793354 0.608761
@@ -6261,7 +6261,7 @@ solid DIN-Rail-Holder (Meshed)
     outer loop
       vertex -0.960469 27.232050 9.000000
       vertex -0.960469 27.431852 8.517638
-      vertex -7.000000 27.232050 9.000000
+      vertex -7.000000 27.431852 8.517638
     endloop
   endfacet
   facet normal 0.000000 0.608762 0.793353
@@ -6397,59 +6397,59 @@ solid DIN-Rail-Holder (Meshed)
       vertex -7.000000 -25.500000 10.000000
     endloop
   endfacet
-  facet normal -1.000000 -0.000000 0.000000
+  facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex -0.500000 -4.650000 17.000000
-      vertex -0.500000 -12.000000 10.000000
+      vertex -0.500000 -4.650000 18.000000
       vertex -0.500000 -12.000000 25.000000
+      vertex -0.500000 -2.325000 22.027018
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex -0.500000 -4.650000 17.000000
+      vertex -0.500000 -12.000000 10.000000
       vertex -0.500000 -12.000000 25.000000
-      vertex -0.500000 -2.325000 21.027018
+      vertex -0.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex -0.500000 2.325000 21.027018
-      vertex -0.500000 -2.325000 21.027018
+      vertex -0.500000 2.325000 22.027018
+      vertex -0.500000 -2.325000 22.027018
       vertex -0.500000 -12.000000 25.000000
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex -0.500000 -2.325000 12.972981
+      vertex -0.500000 -2.325000 13.972981
       vertex -0.500000 -12.000000 10.000000
-      vertex -0.500000 -4.650000 17.000000
+      vertex -0.500000 -4.650000 18.000000
+    endloop
+  endfacet
+  facet normal -1.000000 0.000000 0.000000
+    outer loop
+      vertex -0.500000 12.000000 25.000000
+      vertex -0.500000 4.650000 18.000000
+      vertex -0.500000 2.325000 22.027018
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
       vertex -0.500000 12.000000 25.000000
-      vertex -0.500000 2.325000 21.027018
+      vertex -0.500000 2.325000 22.027018
       vertex -0.500000 -12.000000 25.000000
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex -0.500000 4.650000 17.000000
-      vertex -0.500000 2.325000 21.027018
-      vertex -0.500000 12.000000 25.000000
+      vertex -0.500000 12.000000 10.000000
+      vertex -0.500000 2.325000 13.972981
+      vertex -0.500000 4.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
       vertex -0.500000 12.000000 10.000000
-      vertex -0.500000 2.325000 12.972981
-      vertex -0.500000 4.650000 17.000000
-    endloop
-  endfacet
-  facet normal -1.000000 0.000000 0.000000
-    outer loop
-      vertex -0.500000 12.000000 10.000000
-      vertex -0.500000 4.650000 17.000000
+      vertex -0.500000 4.650000 18.000000
       vertex -0.500000 12.000000 25.000000
     endloop
   endfacet
@@ -6457,14 +6457,14 @@ solid DIN-Rail-Holder (Meshed)
     outer loop
       vertex -0.500000 12.000000 10.000000
       vertex -0.500000 -12.000000 10.000000
-      vertex -0.500000 -2.325000 12.972981
+      vertex -0.500000 -2.325000 13.972981
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
       vertex -0.500000 12.000000 10.000000
-      vertex -0.500000 -2.325000 12.972981
-      vertex -0.500000 2.325000 12.972981
+      vertex -0.500000 -2.325000 13.972981
+      vertex -0.500000 2.325000 13.972981
     endloop
   endfacet
   facet normal -0.988020 -0.154303 -0.002695
@@ -7013,6 +7013,13 @@ solid DIN-Rail-Holder (Meshed)
       vertex 0.480234 25.613176 10.000000
     endloop
   endfacet
+  facet normal -0.328325 0.644376 0.690639
+    outer loop
+      vertex -7.951056 26.809017 9.175570
+      vertex -7.533698 26.547441 9.618034
+      vertex -7.500000 27.038841 9.175570
+    endloop
+  endfacet
   facet normal -0.408887 0.562782 0.718392
     outer loop
       vertex -7.831254 26.331253 9.618034
@@ -7382,13 +7389,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex -8.161098 25.683899 9.618034
       vertex -7.587785 25.690983 9.902113
       vertex -8.047441 26.033697 9.618034
-    endloop
-  endfacet
-  facet normal -0.328325 0.644376 0.690639
-    outer loop
-      vertex -7.951056 26.809017 9.175570
-      vertex -7.533698 26.547441 9.618034
-      vertex -7.500000 27.038841 9.175570
     endloop
   endfacet
   facet normal -0.644375 -0.328325 0.690640
@@ -8779,9 +8779,9 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -1.593778 -22.927052 7.000000
-      vertex -2.727980 -24.075001 7.000000
-      vertex -1.428942 -23.325001 7.000000
+      vertex 0.825000 -23.928942 7.000000
+      vertex 1.575000 -25.227980 7.000000
+      vertex 2.227386 -24.727386 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -8791,39 +8791,11 @@ solid DIN-Rail-Holder (Meshed)
       vertex 1.575000 -19.772020 7.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex 0.815280 -19.457335 7.000000
-      vertex 0.427051 -20.906223 7.000000
-      vertex 0.825000 -21.071058 7.000000
-    endloop
-  endfacet
-  facet normal -0.000000 0.000000 1.000000
-    outer loop
-      vertex -3.042666 -23.315281 7.000000
-      vertex -2.727980 -24.075001 7.000000
-      vertex -1.593778 -22.927052 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex 0.825000 -23.928942 7.000000
-      vertex 1.575000 -25.227980 7.000000
-      vertex 2.227386 -24.727386 7.000000
-    endloop
-  endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex 0.825000 -23.928942 7.000000
       vertex 2.227386 -24.727386 7.000000
       vertex 1.166726 -23.666727 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -3.042666 -23.315281 7.000000
-      vertex -1.593778 -22.927052 7.000000
-      vertex -1.650000 -22.500000 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -8835,9 +8807,37 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
+      vertex 0.815280 -19.457335 7.000000
+      vertex 0.427051 -20.906223 7.000000
+      vertex 0.825000 -21.071058 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
       vertex 1.428942 -23.325001 7.000000
       vertex 1.166726 -23.666727 7.000000
       vertex 2.227386 -24.727386 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -3.042666 -23.315281 7.000000
+      vertex -2.727980 -24.075001 7.000000
+      vertex -1.428942 -23.325001 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -3.042666 -23.315281 7.000000
+      vertex -1.593778 -22.927052 7.000000
+      vertex -1.650000 -22.500000 7.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 1.000000
+    outer loop
+      vertex -3.042666 -23.315281 7.000000
+      vertex -1.428942 -23.325001 7.000000
+      vertex -1.593778 -22.927052 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -8861,13 +8861,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex 3.042666 -23.315281 7.000000
     endloop
   endfacet
-  facet normal -0.000000 0.000000 1.000000
-    outer loop
-      vertex -3.150000 -22.500000 7.000000
-      vertex -3.042666 -23.315281 7.000000
-      vertex -1.650000 -22.500000 7.000000
-    endloop
-  endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
       vertex 1.593778 -22.927052 7.000000
@@ -8877,23 +8870,16 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -0.000000 -19.350000 7.000000
-      vertex 0.427051 -20.906223 7.000000
-      vertex 0.815280 -19.457335 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
       vertex -0.000000 -24.150000 7.000000
       vertex -0.000000 -25.650000 7.000000
       vertex 0.815280 -25.542665 7.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
+  facet normal -0.000000 0.000000 1.000000
     outer loop
-      vertex -0.000000 -19.350000 7.000000
-      vertex -0.000000 -20.850000 7.000000
-      vertex 0.427051 -20.906223 7.000000
+      vertex -3.150000 -22.500000 7.000000
+      vertex -3.042666 -23.315281 7.000000
+      vertex -1.650000 -22.500000 7.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -8901,13 +8887,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex -0.000000 -24.150000 7.000000
       vertex 0.815280 -25.542665 7.000000
       vertex 0.427051 -24.093777 7.000000
-    endloop
-  endfacet
-  facet normal -0.000000 0.000000 1.000000
-    outer loop
-      vertex -3.042666 -21.684719 7.000000
-      vertex -1.593778 -22.072948 7.000000
-      vertex -1.428942 -21.674999 7.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -8919,9 +8898,30 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -3.042666 -21.684719 7.000000
-      vertex -1.650000 -22.500000 7.000000
-      vertex -1.593778 -22.072948 7.000000
+      vertex -0.000000 -19.350000 7.000000
+      vertex 0.427051 -20.906223 7.000000
+      vertex 0.815280 -19.457335 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex 1.650000 -22.500000 7.000000
+      vertex 1.593778 -22.927052 7.000000
+      vertex 3.042666 -23.315281 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -0.427051 -24.093777 7.000000
+      vertex -0.815280 -25.542665 7.000000
+      vertex -0.000000 -25.650000 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -0.000000 -19.350000 7.000000
+      vertex -0.000000 -20.850000 7.000000
+      vertex 0.427051 -20.906223 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -8933,16 +8933,23 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -0.815280 -19.457335 7.000000
-      vertex -0.427051 -20.906223 7.000000
-      vertex -0.000000 -20.850000 7.000000
+      vertex -0.427051 -24.093777 7.000000
+      vertex -0.000000 -25.650000 7.000000
+      vertex -0.000000 -24.150000 7.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.000000 1.000000
+    outer loop
+      vertex -3.042666 -21.684719 7.000000
+      vertex -1.593778 -22.072948 7.000000
+      vertex -1.428942 -21.674999 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 1.650000 -22.500000 7.000000
-      vertex 1.593778 -22.927052 7.000000
-      vertex 3.042666 -23.315281 7.000000
+      vertex -3.042666 -21.684719 7.000000
+      vertex -1.650000 -22.500000 7.000000
+      vertex -1.593778 -22.072948 7.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
@@ -8952,18 +8959,18 @@ solid DIN-Rail-Holder (Meshed)
       vertex 3.042666 -21.684719 7.000000
     endloop
   endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex -0.815280 -19.457335 7.000000
+      vertex -0.427051 -20.906223 7.000000
+      vertex -0.000000 -20.850000 7.000000
+    endloop
+  endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex -0.815280 -19.457335 7.000000
       vertex -0.000000 -20.850000 7.000000
       vertex -0.000000 -19.350000 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -2.727980 -20.924999 7.000000
-      vertex -3.042666 -21.684719 7.000000
-      vertex -1.428942 -21.674999 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -8975,6 +8982,13 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
+      vertex -2.727980 -20.924999 7.000000
+      vertex -3.042666 -21.684719 7.000000
+      vertex -1.428942 -21.674999 7.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
       vertex -1.575000 -19.772020 7.000000
       vertex -0.825000 -21.071058 7.000000
       vertex -0.427051 -20.906223 7.000000
@@ -8987,13 +9001,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex -0.825000 -21.071058 7.000000
     endloop
   endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -0.427051 -24.093777 7.000000
-      vertex -0.815280 -25.542665 7.000000
-      vertex -0.000000 -25.650000 7.000000
-    endloop
-  endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex -1.575000 -19.772020 7.000000
@@ -9003,9 +9010,9 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -0.427051 -24.093777 7.000000
-      vertex -0.000000 -25.650000 7.000000
-      vertex -0.000000 -24.150000 7.000000
+      vertex -0.825000 -23.928942 7.000000
+      vertex -1.575000 -25.227980 7.000000
+      vertex -0.815280 -25.542665 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -9027,13 +9034,6 @@ solid DIN-Rail-Holder (Meshed)
       vertex -2.227386 -20.272614 7.000000
       vertex -2.727980 -20.924999 7.000000
       vertex -1.428942 -21.674999 7.000000
-    endloop
-  endfacet
-  facet normal 0.000000 0.000000 1.000000
-    outer loop
-      vertex -0.825000 -23.928942 7.000000
-      vertex -1.575000 -25.227980 7.000000
-      vertex -0.815280 -25.542665 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -9073,16 +9073,16 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex -1.166726 -23.666727 7.000000
-      vertex -1.575000 -25.227980 7.000000
+      vertex -2.227386 -24.727386 7.000000
       vertex -0.825000 -23.928942 7.000000
+      vertex -1.166726 -23.666727 7.000000
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
       vertex -2.227386 -24.727386 7.000000
       vertex -1.575000 -25.227980 7.000000
-      vertex -1.166726 -23.666727 7.000000
+      vertex -0.825000 -23.928942 7.000000
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
@@ -9197,6 +9197,20 @@ solid DIN-Rail-Holder (Meshed)
       vertex 5.982963 11.629410 10.000000
     endloop
   endfacet
+  facet normal 1.000000 0.000000 -0.000000
+    outer loop
+      vertex 6.000000 2.294967 19.325001
+      vertex 6.000000 12.000000 25.000000
+      vertex 6.000000 1.873833 19.873833
+    endloop
+  endfacet
+  facet normal 1.000000 -0.000000 0.000000
+    outer loop
+      vertex 6.000000 1.325000 20.294968
+      vertex 6.000000 1.873833 19.873833
+      vertex 6.000000 12.000000 25.000000
+    endloop
+  endfacet
   facet normal 1.000000 0.000000 0.000000
     outer loop
       vertex 6.000000 11.500000 10.000000
@@ -9206,190 +9220,176 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 1.000000 0.000000 -0.000000
     outer loop
-      vertex 6.000000 2.294967 18.325001
+      vertex 6.000000 2.559703 18.685871
       vertex 6.000000 12.000000 25.000000
-      vertex 6.000000 1.873833 18.873833
+      vertex 6.000000 2.294967 19.325001
     endloop
   endfacet
   facet normal 1.000000 -0.000000 0.000000
     outer loop
-      vertex 6.000000 1.325000 19.294968
-      vertex 6.000000 1.873833 18.873833
-      vertex 6.000000 12.000000 25.000000
-    endloop
-  endfacet
-  facet normal 1.000000 0.000000 -0.000000
-    outer loop
-      vertex 6.000000 2.559703 17.685871
-      vertex 6.000000 12.000000 25.000000
-      vertex 6.000000 2.294967 18.325001
-    endloop
-  endfacet
-  facet normal 1.000000 -0.000000 0.000000
-    outer loop
-      vertex 6.000000 0.685870 19.559704
-      vertex 6.000000 1.325000 19.294968
+      vertex 6.000000 0.685870 20.559704
+      vertex 6.000000 1.325000 20.294968
       vertex 6.000000 12.000000 25.000000
     endloop
   endfacet
   facet normal 1.000000 -0.000000 0.000000
     outer loop
-      vertex 6.000000 2.650000 17.000000
+      vertex 6.000000 2.650000 18.000000
       vertex 6.000000 11.500000 10.000000
       vertex 6.000000 12.000000 25.000000
     endloop
   endfacet
   facet normal 1.000000 0.000000 -0.000000
     outer loop
-      vertex 6.000000 2.650000 17.000000
+      vertex 6.000000 2.650000 18.000000
       vertex 6.000000 12.000000 25.000000
-      vertex 6.000000 2.559703 17.685871
+      vertex 6.000000 2.559703 18.685871
     endloop
   endfacet
   facet normal 1.000000 -0.000000 0.000000
     outer loop
-      vertex 6.000000 0.000000 19.650000
-      vertex 6.000000 0.685870 19.559704
-      vertex 6.000000 12.000000 25.000000
-    endloop
-  endfacet
-  facet normal 1.000000 -0.000000 0.000000
-    outer loop
-      vertex 6.000000 2.559703 16.314129
-      vertex 6.000000 11.500000 10.000000
-      vertex 6.000000 2.650000 17.000000
-    endloop
-  endfacet
-  facet normal 1.000000 -0.000000 0.000000
-    outer loop
-      vertex 6.000000 2.294967 15.675000
-      vertex 6.000000 11.500000 10.000000
-      vertex 6.000000 2.559703 16.314129
-    endloop
-  endfacet
-  facet normal 1.000000 -0.000000 0.000000
-    outer loop
-      vertex 6.000000 1.873833 15.126167
-      vertex 6.000000 11.500000 10.000000
-      vertex 6.000000 2.294967 15.675000
-    endloop
-  endfacet
-  facet normal 1.000000 -0.000000 0.000000
-    outer loop
-      vertex 6.000000 1.325000 14.705032
-      vertex 6.000000 11.500000 10.000000
-      vertex 6.000000 1.873833 15.126167
-    endloop
-  endfacet
-  facet normal 1.000000 -0.000000 0.000000
-    outer loop
-      vertex 6.000000 0.685870 14.440296
-      vertex 6.000000 11.500000 10.000000
-      vertex 6.000000 1.325000 14.705032
-    endloop
-  endfacet
-  facet normal 1.000000 -0.000000 0.000000
-    outer loop
-      vertex 6.000000 0.000000 14.350000
-      vertex 6.000000 11.500000 10.000000
-      vertex 6.000000 0.685870 14.440296
-    endloop
-  endfacet
-  facet normal 1.000000 0.000000 0.000000
-    outer loop
-      vertex 6.000000 -12.000000 25.000000
-      vertex 6.000000 -2.650000 17.000000
-      vertex 6.000000 -2.559703 17.685871
-    endloop
-  endfacet
-  facet normal 1.000000 0.000000 0.000000
-    outer loop
-      vertex 6.000000 -12.000000 25.000000
-      vertex 6.000000 -2.559703 17.685871
-      vertex 6.000000 -2.294967 18.325001
-    endloop
-  endfacet
-  facet normal 1.000000 0.000000 0.000000
-    outer loop
-      vertex 6.000000 -12.000000 25.000000
-      vertex 6.000000 -2.294967 18.325001
-      vertex 6.000000 -1.873833 18.873833
-    endloop
-  endfacet
-  facet normal 1.000000 0.000000 0.000000
-    outer loop
-      vertex 6.000000 -12.000000 25.000000
-      vertex 6.000000 -1.873833 18.873833
-      vertex 6.000000 -1.325000 19.294968
-    endloop
-  endfacet
-  facet normal 1.000000 0.000000 0.000000
-    outer loop
-      vertex 6.000000 -12.000000 25.000000
-      vertex 6.000000 -1.325000 19.294968
-      vertex 6.000000 -0.685870 19.559704
-    endloop
-  endfacet
-  facet normal 1.000000 0.000000 0.000000
-    outer loop
-      vertex 6.000000 -12.000000 25.000000
-      vertex 6.000000 -0.685870 19.559704
-      vertex 6.000000 0.000000 19.650000
-    endloop
-  endfacet
-  facet normal 1.000000 -0.000000 0.000000
-    outer loop
-      vertex 6.000000 -12.000000 25.000000
-      vertex 6.000000 0.000000 19.650000
+      vertex 6.000000 0.000000 20.650000
+      vertex 6.000000 0.685870 20.559704
       vertex 6.000000 12.000000 25.000000
     endloop
   endfacet
+  facet normal 1.000000 -0.000000 0.000000
+    outer loop
+      vertex 6.000000 2.559703 17.314129
+      vertex 6.000000 11.500000 10.000000
+      vertex 6.000000 2.650000 18.000000
+    endloop
+  endfacet
+  facet normal 1.000000 -0.000000 0.000000
+    outer loop
+      vertex 6.000000 2.294967 16.674999
+      vertex 6.000000 11.500000 10.000000
+      vertex 6.000000 2.559703 17.314129
+    endloop
+  endfacet
+  facet normal 1.000000 -0.000000 0.000000
+    outer loop
+      vertex 6.000000 1.873833 16.126167
+      vertex 6.000000 11.500000 10.000000
+      vertex 6.000000 2.294967 16.674999
+    endloop
+  endfacet
+  facet normal 1.000000 -0.000000 0.000000
+    outer loop
+      vertex 6.000000 1.325000 15.705032
+      vertex 6.000000 11.500000 10.000000
+      vertex 6.000000 1.873833 16.126167
+    endloop
+  endfacet
+  facet normal 1.000000 -0.000000 0.000000
+    outer loop
+      vertex 6.000000 0.685870 15.440296
+      vertex 6.000000 11.500000 10.000000
+      vertex 6.000000 1.325000 15.705032
+    endloop
+  endfacet
+  facet normal 1.000000 -0.000000 0.000000
+    outer loop
+      vertex 6.000000 0.000000 15.350000
+      vertex 6.000000 11.500000 10.000000
+      vertex 6.000000 0.685870 15.440296
+    endloop
+  endfacet
   facet normal 1.000000 0.000000 0.000000
     outer loop
-      vertex 6.000000 -11.500000 10.000000
-      vertex 6.000000 0.000000 14.350000
-      vertex 6.000000 -0.685870 14.440296
+      vertex 6.000000 -12.000000 25.000000
+      vertex 6.000000 -2.650000 18.000000
+      vertex 6.000000 -2.559703 18.685871
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 6.000000 -12.000000 25.000000
+      vertex 6.000000 -2.559703 18.685871
+      vertex 6.000000 -2.294967 19.325001
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 6.000000 -12.000000 25.000000
+      vertex 6.000000 -2.294967 19.325001
+      vertex 6.000000 -1.873833 19.873833
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 6.000000 -12.000000 25.000000
+      vertex 6.000000 -1.873833 19.873833
+      vertex 6.000000 -1.325000 20.294968
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 6.000000 -12.000000 25.000000
+      vertex 6.000000 -1.325000 20.294968
+      vertex 6.000000 -0.685870 20.559704
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 6.000000 -12.000000 25.000000
+      vertex 6.000000 -0.685870 20.559704
+      vertex 6.000000 0.000000 20.650000
+    endloop
+  endfacet
+  facet normal 1.000000 -0.000000 0.000000
+    outer loop
+      vertex 6.000000 -12.000000 25.000000
+      vertex 6.000000 0.000000 20.650000
+      vertex 6.000000 12.000000 25.000000
     endloop
   endfacet
   facet normal 1.000000 0.000000 0.000000
     outer loop
       vertex 6.000000 -11.500000 10.000000
-      vertex 6.000000 -0.685870 14.440296
-      vertex 6.000000 -1.325000 14.705032
+      vertex 6.000000 0.000000 15.350000
+      vertex 6.000000 -0.685870 15.440296
     endloop
   endfacet
   facet normal 1.000000 0.000000 0.000000
     outer loop
       vertex 6.000000 -11.500000 10.000000
-      vertex 6.000000 -1.325000 14.705032
-      vertex 6.000000 -1.873833 15.126167
+      vertex 6.000000 -0.685870 15.440296
+      vertex 6.000000 -1.325000 15.705032
     endloop
   endfacet
   facet normal 1.000000 0.000000 0.000000
     outer loop
       vertex 6.000000 -11.500000 10.000000
-      vertex 6.000000 -1.873833 15.126167
-      vertex 6.000000 -2.294967 15.675000
+      vertex 6.000000 -1.325000 15.705032
+      vertex 6.000000 -1.873833 16.126167
     endloop
   endfacet
   facet normal 1.000000 0.000000 0.000000
     outer loop
       vertex 6.000000 -11.500000 10.000000
-      vertex 6.000000 -2.294967 15.675000
-      vertex 6.000000 -2.559703 16.314129
+      vertex 6.000000 -1.873833 16.126167
+      vertex 6.000000 -2.294967 16.674999
     endloop
   endfacet
   facet normal 1.000000 0.000000 0.000000
     outer loop
       vertex 6.000000 -11.500000 10.000000
-      vertex 6.000000 -2.559703 16.314129
-      vertex 6.000000 -2.650000 17.000000
+      vertex 6.000000 -2.294967 16.674999
+      vertex 6.000000 -2.559703 17.314129
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 6.000000 -11.500000 10.000000
+      vertex 6.000000 -2.559703 17.314129
+      vertex 6.000000 -2.650000 18.000000
     endloop
   endfacet
   facet normal 1.000000 0.000000 -0.000000
     outer loop
       vertex 6.000000 -11.500000 10.000000
-      vertex 6.000000 -2.650000 17.000000
+      vertex 6.000000 -2.650000 18.000000
       vertex 6.000000 -12.000000 25.000000
     endloop
   endfacet
@@ -9404,7 +9404,7 @@ solid DIN-Rail-Holder (Meshed)
     outer loop
       vertex 6.000000 -11.500000 10.000000
       vertex 6.000000 11.500000 10.000000
-      vertex 6.000000 0.000000 14.350000
+      vertex 6.000000 0.000000 15.350000
     endloop
   endfacet
   facet normal 0.000000 -0.000000 -1.000000
@@ -9465,86 +9465,86 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 -0.866025 0.500000
     outer loop
-      vertex -0.500000 4.650000 17.000000
-      vertex -0.500000 2.325000 12.972981
-      vertex 2.500000 4.650000 17.000000
+      vertex -0.500000 4.650000 18.000000
+      vertex -0.500000 2.325000 13.972981
+      vertex 2.500000 4.650000 18.000000
     endloop
   endfacet
   facet normal 0.000000 -0.866025 0.500000
     outer loop
-      vertex 2.500000 4.650000 17.000000
-      vertex -0.500000 2.325000 12.972981
-      vertex 2.500000 2.325000 12.972981
+      vertex 2.500000 4.650000 18.000000
+      vertex -0.500000 2.325000 13.972981
+      vertex 2.500000 2.325000 13.972981
     endloop
   endfacet
   facet normal -0.000000 0.000000 1.000000
     outer loop
-      vertex -0.500000 2.325000 12.972981
-      vertex -0.500000 -2.325000 12.972981
-      vertex 2.500000 2.325000 12.972981
+      vertex -0.500000 2.325000 13.972981
+      vertex -0.500000 -2.325000 13.972981
+      vertex 2.500000 2.325000 13.972981
     endloop
   endfacet
   facet normal 0.000000 0.000000 1.000000
     outer loop
-      vertex 2.500000 2.325000 12.972981
-      vertex -0.500000 -2.325000 12.972981
-      vertex 2.500000 -2.325000 12.972981
+      vertex 2.500000 2.325000 13.972981
+      vertex -0.500000 -2.325000 13.972981
+      vertex 2.500000 -2.325000 13.972981
     endloop
   endfacet
   facet normal -0.000000 0.866025 0.500000
     outer loop
-      vertex -0.500000 -2.325000 12.972981
-      vertex -0.500000 -4.650000 17.000000
-      vertex 2.500000 -2.325000 12.972981
+      vertex -0.500000 -2.325000 13.972981
+      vertex -0.500000 -4.650000 18.000000
+      vertex 2.500000 -2.325000 13.972981
     endloop
   endfacet
   facet normal 0.000000 0.866025 0.500000
     outer loop
-      vertex 2.500000 -2.325000 12.972981
-      vertex -0.500000 -4.650000 17.000000
-      vertex 2.500000 -4.650000 17.000000
+      vertex 2.500000 -2.325000 13.972981
+      vertex -0.500000 -4.650000 18.000000
+      vertex 2.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal 0.000000 0.866025 -0.500000
     outer loop
-      vertex -0.500000 -4.650000 17.000000
-      vertex 2.500000 -2.325000 21.027018
-      vertex 2.500000 -4.650000 17.000000
+      vertex -0.500000 -4.650000 18.000000
+      vertex 2.500000 -2.325000 22.027018
+      vertex 2.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal 0.000000 0.866025 -0.500000
     outer loop
-      vertex -0.500000 -4.650000 17.000000
-      vertex -0.500000 -2.325000 21.027018
-      vertex 2.500000 -2.325000 21.027018
+      vertex -0.500000 -4.650000 18.000000
+      vertex -0.500000 -2.325000 22.027018
+      vertex 2.500000 -2.325000 22.027018
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex -0.500000 -2.325000 21.027018
-      vertex -0.500000 2.325000 21.027018
-      vertex 2.500000 -2.325000 21.027018
+      vertex -0.500000 -2.325000 22.027018
+      vertex -0.500000 2.325000 22.027018
+      vertex 2.500000 -2.325000 22.027018
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
     outer loop
-      vertex 2.500000 -2.325000 21.027018
-      vertex -0.500000 2.325000 21.027018
-      vertex 2.500000 2.325000 21.027018
+      vertex 2.500000 -2.325000 22.027018
+      vertex -0.500000 2.325000 22.027018
+      vertex 2.500000 2.325000 22.027018
     endloop
   endfacet
   facet normal 0.000000 -0.866025 -0.500000
     outer loop
-      vertex -0.500000 2.325000 21.027018
-      vertex -0.500000 4.650000 17.000000
-      vertex 2.500000 2.325000 21.027018
+      vertex -0.500000 2.325000 22.027018
+      vertex -0.500000 4.650000 18.000000
+      vertex 2.500000 2.325000 22.027018
     endloop
   endfacet
   facet normal 0.000000 -0.866025 -0.500000
     outer loop
-      vertex 2.500000 2.325000 21.027018
-      vertex -0.500000 4.650000 17.000000
-      vertex 2.500000 4.650000 17.000000
+      vertex 2.500000 2.325000 22.027018
+      vertex -0.500000 4.650000 18.000000
+      vertex 2.500000 4.650000 18.000000
     endloop
   endfacet
   facet normal 0.130525 -0.991445 0.000000
@@ -10221,548 +10221,548 @@ solid DIN-Rail-Holder (Meshed)
   endfacet
   facet normal 0.000000 -0.130525 0.991445
     outer loop
-      vertex 6.000000 0.685870 14.440296
-      vertex 2.500000 0.000000 14.350000
-      vertex 6.000000 0.000000 14.350000
-    endloop
-  endfacet
-  facet normal -0.000000 0.130525 0.991445
-    outer loop
-      vertex 2.500000 0.000000 14.350000
-      vertex 2.500000 -0.685870 14.440296
-      vertex 6.000000 0.000000 14.350000
-    endloop
-  endfacet
-  facet normal 0.000000 0.130525 0.991445
-    outer loop
-      vertex 6.000000 0.000000 14.350000
-      vertex 2.500000 -0.685870 14.440296
-      vertex 6.000000 -0.685870 14.440296
-    endloop
-  endfacet
-  facet normal 0.000000 0.991445 -0.130526
-    outer loop
-      vertex 6.000000 -2.650000 17.000000
-      vertex 2.500000 -2.650000 17.000000
-      vertex 6.000000 -2.559703 17.685871
-    endloop
-  endfacet
-  facet normal -0.000000 0.382683 0.923880
-    outer loop
-      vertex 2.500000 -0.685870 14.440296
-      vertex 2.500000 -1.325000 14.705032
-      vertex 6.000000 -0.685870 14.440296
-    endloop
-  endfacet
-  facet normal 0.000000 0.382683 0.923880
-    outer loop
-      vertex 6.000000 -0.685870 14.440296
-      vertex 2.500000 -1.325000 14.705032
-      vertex 6.000000 -1.325000 14.705032
-    endloop
-  endfacet
-  facet normal 0.000000 0.923880 -0.382683
-    outer loop
-      vertex 6.000000 -2.559703 17.685871
-      vertex 2.500000 -2.559703 17.685871
-      vertex 6.000000 -2.294967 18.325001
-    endloop
-  endfacet
-  facet normal 0.000000 0.991445 -0.130526
-    outer loop
-      vertex 2.500000 -2.650000 17.000000
-      vertex 2.500000 -2.559703 17.685871
-      vertex 6.000000 -2.559703 17.685871
-    endloop
-  endfacet
-  facet normal -0.000000 0.608762 0.793353
-    outer loop
-      vertex 2.500000 -1.325000 14.705032
-      vertex 2.500000 -1.873833 15.126167
-      vertex 6.000000 -1.325000 14.705032
-    endloop
-  endfacet
-  facet normal 0.000000 0.608762 0.793353
-    outer loop
-      vertex 6.000000 -1.325000 14.705032
-      vertex 2.500000 -1.873833 15.126167
-      vertex 6.000000 -1.873833 15.126167
-    endloop
-  endfacet
-  facet normal 0.000000 0.923880 -0.382683
-    outer loop
-      vertex 2.500000 -2.559703 17.685871
-      vertex 2.500000 -2.294967 18.325001
-      vertex 6.000000 -2.294967 18.325001
-    endloop
-  endfacet
-  facet normal -0.000000 0.793353 0.608762
-    outer loop
-      vertex 2.500000 -1.873833 15.126167
-      vertex 2.500000 -2.294967 15.675000
-      vertex 6.000000 -1.873833 15.126167
-    endloop
-  endfacet
-  facet normal 0.000000 0.793353 0.608762
-    outer loop
-      vertex 6.000000 -1.873833 15.126167
-      vertex 2.500000 -2.294967 15.675000
-      vertex 6.000000 -2.294967 15.675000
-    endloop
-  endfacet
-  facet normal 0.000000 0.793353 -0.608762
-    outer loop
-      vertex 6.000000 -2.294967 18.325001
-      vertex 2.500000 -1.873833 18.873833
-      vertex 6.000000 -1.873833 18.873833
-    endloop
-  endfacet
-  facet normal 0.000000 0.608762 -0.793353
-    outer loop
-      vertex 6.000000 -1.873833 18.873833
-      vertex 2.500000 -1.873833 18.873833
-      vertex 6.000000 -1.325000 19.294968
-    endloop
-  endfacet
-  facet normal 0.000000 0.793353 -0.608762
-    outer loop
-      vertex 2.500000 -2.294967 18.325001
-      vertex 2.500000 -1.873833 18.873833
-      vertex 6.000000 -2.294967 18.325001
-    endloop
-  endfacet
-  facet normal -0.000000 0.923879 0.382684
-    outer loop
-      vertex 2.500000 -2.294967 15.675000
-      vertex 2.500000 -2.559703 16.314129
-      vertex 6.000000 -2.294967 15.675000
-    endloop
-  endfacet
-  facet normal 0.000000 0.923879 0.382684
-    outer loop
-      vertex 6.000000 -2.294967 15.675000
-      vertex 2.500000 -2.559703 16.314129
-      vertex 6.000000 -2.559703 16.314129
-    endloop
-  endfacet
-  facet normal 0.000000 0.382683 -0.923880
-    outer loop
-      vertex 6.000000 -1.325000 19.294968
-      vertex 2.500000 -1.325000 19.294968
-      vertex 6.000000 -0.685870 19.559704
-    endloop
-  endfacet
-  facet normal 0.000000 0.991445 0.130526
-    outer loop
-      vertex 6.000000 -2.559703 16.314129
-      vertex 2.500000 -2.650000 17.000000
-      vertex 6.000000 -2.650000 17.000000
-    endloop
-  endfacet
-  facet normal -0.000000 0.991445 0.130526
-    outer loop
-      vertex 2.500000 -2.559703 16.314129
-      vertex 2.500000 -2.650000 17.000000
-      vertex 6.000000 -2.559703 16.314129
-    endloop
-  endfacet
-  facet normal 0.000000 0.608762 -0.793353
-    outer loop
-      vertex 2.500000 -1.873833 18.873833
-      vertex 2.500000 -1.325000 19.294968
-      vertex 6.000000 -1.325000 19.294968
-    endloop
-  endfacet
-  facet normal 0.000000 0.130525 -0.991445
-    outer loop
-      vertex 6.000000 -0.685870 19.559704
-      vertex 2.500000 -0.685870 19.559704
-      vertex 6.000000 0.000000 19.650000
-    endloop
-  endfacet
-  facet normal 0.000000 0.382683 -0.923880
-    outer loop
-      vertex 2.500000 -1.325000 19.294968
-      vertex 2.500000 -0.685870 19.559704
-      vertex 6.000000 -0.685870 19.559704
-    endloop
-  endfacet
-  facet normal 0.000000 -0.130525 -0.991445
-    outer loop
-      vertex 6.000000 0.000000 19.650000
-      vertex 2.500000 0.000000 19.650000
-      vertex 6.000000 0.685870 19.559704
-    endloop
-  endfacet
-  facet normal 0.000000 0.130525 -0.991445
-    outer loop
-      vertex 2.500000 -0.685870 19.559704
-      vertex 2.500000 0.000000 19.650000
-      vertex 6.000000 0.000000 19.650000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.130525 -0.991445
-    outer loop
-      vertex 2.500000 0.000000 19.650000
-      vertex 2.500000 0.685870 19.559704
-      vertex 6.000000 0.685870 19.559704
-    endloop
-  endfacet
-  facet normal 0.000000 -0.382683 -0.923880
-    outer loop
-      vertex 6.000000 0.685870 19.559704
-      vertex 2.500000 1.325000 19.294968
-      vertex 6.000000 1.325000 19.294968
-    endloop
-  endfacet
-  facet normal 0.000000 -0.382683 -0.923880
-    outer loop
-      vertex 2.500000 0.685870 19.559704
-      vertex 2.500000 1.325000 19.294968
-      vertex 6.000000 0.685870 19.559704
-    endloop
-  endfacet
-  facet normal 0.000000 -0.608762 -0.793353
-    outer loop
-      vertex 6.000000 1.325000 19.294968
-      vertex 2.500000 1.873833 18.873833
-      vertex 6.000000 1.873833 18.873833
-    endloop
-  endfacet
-  facet normal 0.000000 -0.608762 -0.793353
-    outer loop
-      vertex 2.500000 1.325000 19.294968
-      vertex 2.500000 1.873833 18.873833
-      vertex 6.000000 1.325000 19.294968
-    endloop
-  endfacet
-  facet normal 0.000000 -0.793353 -0.608762
-    outer loop
-      vertex 6.000000 1.873833 18.873833
-      vertex 2.500000 2.294967 18.325001
-      vertex 6.000000 2.294967 18.325001
-    endloop
-  endfacet
-  facet normal 0.000000 -0.793353 -0.608762
-    outer loop
-      vertex 2.500000 1.873833 18.873833
-      vertex 2.500000 2.294967 18.325001
-      vertex 6.000000 1.873833 18.873833
-    endloop
-  endfacet
-  facet normal 0.000000 -0.923880 -0.382683
-    outer loop
-      vertex 6.000000 2.294967 18.325001
-      vertex 2.500000 2.559703 17.685871
-      vertex 6.000000 2.559703 17.685871
-    endloop
-  endfacet
-  facet normal 0.000000 -0.923880 -0.382683
-    outer loop
-      vertex 2.500000 2.294967 18.325001
-      vertex 2.500000 2.559703 17.685871
-      vertex 6.000000 2.294967 18.325001
-    endloop
-  endfacet
-  facet normal 0.000000 -0.991445 -0.130526
-    outer loop
-      vertex 2.500000 2.559703 17.685871
-      vertex 2.500000 2.650000 17.000000
-      vertex 6.000000 2.559703 17.685871
-    endloop
-  endfacet
-  facet normal 0.000000 -0.991445 -0.130526
-    outer loop
-      vertex 6.000000 2.559703 17.685871
-      vertex 2.500000 2.650000 17.000000
-      vertex 6.000000 2.650000 17.000000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.991445 0.130526
-    outer loop
-      vertex 2.500000 2.650000 17.000000
-      vertex 2.500000 2.559703 16.314129
-      vertex 6.000000 2.650000 17.000000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.991445 0.130526
-    outer loop
-      vertex 6.000000 2.650000 17.000000
-      vertex 2.500000 2.559703 16.314129
-      vertex 6.000000 2.559703 16.314129
-    endloop
-  endfacet
-  facet normal 0.000000 -0.923879 0.382684
-    outer loop
-      vertex 2.500000 2.559703 16.314129
-      vertex 2.500000 2.294967 15.675000
-      vertex 6.000000 2.559703 16.314129
-    endloop
-  endfacet
-  facet normal 0.000000 -0.923879 0.382684
-    outer loop
-      vertex 6.000000 2.559703 16.314129
-      vertex 2.500000 2.294967 15.675000
-      vertex 6.000000 2.294967 15.675000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.793353 0.608762
-    outer loop
-      vertex 2.500000 2.294967 15.675000
-      vertex 2.500000 1.873833 15.126167
-      vertex 6.000000 2.294967 15.675000
-    endloop
-  endfacet
-  facet normal 0.000000 -0.793353 0.608762
-    outer loop
-      vertex 6.000000 2.294967 15.675000
-      vertex 2.500000 1.873833 15.126167
-      vertex 6.000000 1.873833 15.126167
-    endloop
-  endfacet
-  facet normal 0.000000 -0.608762 0.793353
-    outer loop
-      vertex 2.500000 1.873833 15.126167
-      vertex 2.500000 1.325000 14.705032
-      vertex 6.000000 1.873833 15.126167
-    endloop
-  endfacet
-  facet normal 0.000000 -0.608762 0.793353
-    outer loop
-      vertex 6.000000 1.873833 15.126167
-      vertex 2.500000 1.325000 14.705032
-      vertex 6.000000 1.325000 14.705032
-    endloop
-  endfacet
-  facet normal 0.000000 -0.382683 0.923880
-    outer loop
-      vertex 2.500000 1.325000 14.705032
-      vertex 2.500000 0.685870 14.440296
-      vertex 6.000000 1.325000 14.705032
-    endloop
-  endfacet
-  facet normal 0.000000 -0.382683 0.923880
-    outer loop
-      vertex 6.000000 1.325000 14.705032
-      vertex 2.500000 0.685870 14.440296
-      vertex 6.000000 0.685870 14.440296
+      vertex 2.500000 0.685870 15.440296
+      vertex 2.500000 0.000000 15.350000
+      vertex 6.000000 0.685870 15.440296
     endloop
   endfacet
   facet normal 0.000000 -0.130525 0.991445
     outer loop
-      vertex 2.500000 0.685870 14.440296
-      vertex 2.500000 0.000000 14.350000
-      vertex 6.000000 0.685870 14.440296
+      vertex 6.000000 0.685870 15.440296
+      vertex 2.500000 0.000000 15.350000
+      vertex 6.000000 0.000000 15.350000
+    endloop
+  endfacet
+  facet normal -0.000000 0.130525 0.991445
+    outer loop
+      vertex 2.500000 0.000000 15.350000
+      vertex 2.500000 -0.685870 15.440296
+      vertex 6.000000 0.000000 15.350000
+    endloop
+  endfacet
+  facet normal 0.000000 0.130525 0.991445
+    outer loop
+      vertex 6.000000 0.000000 15.350000
+      vertex 2.500000 -0.685870 15.440296
+      vertex 6.000000 -0.685870 15.440296
+    endloop
+  endfacet
+  facet normal 0.000000 0.991445 -0.130526
+    outer loop
+      vertex 6.000000 -2.650000 18.000000
+      vertex 2.500000 -2.650000 18.000000
+      vertex 6.000000 -2.559703 18.685871
+    endloop
+  endfacet
+  facet normal -0.000000 0.382683 0.923880
+    outer loop
+      vertex 2.500000 -0.685870 15.440296
+      vertex 2.500000 -1.325000 15.705032
+      vertex 6.000000 -0.685870 15.440296
+    endloop
+  endfacet
+  facet normal 0.000000 0.382683 0.923880
+    outer loop
+      vertex 6.000000 -0.685870 15.440296
+      vertex 2.500000 -1.325000 15.705032
+      vertex 6.000000 -1.325000 15.705032
+    endloop
+  endfacet
+  facet normal 0.000000 0.991445 -0.130526
+    outer loop
+      vertex 2.500000 -2.650000 18.000000
+      vertex 2.500000 -2.559703 18.685871
+      vertex 6.000000 -2.559703 18.685871
+    endloop
+  endfacet
+  facet normal -0.000000 0.608762 0.793353
+    outer loop
+      vertex 2.500000 -1.325000 15.705032
+      vertex 2.500000 -1.873833 16.126167
+      vertex 6.000000 -1.325000 15.705032
+    endloop
+  endfacet
+  facet normal 0.000000 0.923880 -0.382683
+    outer loop
+      vertex 6.000000 -2.559703 18.685871
+      vertex 2.500000 -2.294967 19.325001
+      vertex 6.000000 -2.294967 19.325001
+    endloop
+  endfacet
+  facet normal 0.000000 0.608762 0.793353
+    outer loop
+      vertex 6.000000 -1.325000 15.705032
+      vertex 2.500000 -1.873833 16.126167
+      vertex 6.000000 -1.873833 16.126167
+    endloop
+  endfacet
+  facet normal 0.000000 0.923880 -0.382683
+    outer loop
+      vertex 2.500000 -2.559703 18.685871
+      vertex 2.500000 -2.294967 19.325001
+      vertex 6.000000 -2.559703 18.685871
+    endloop
+  endfacet
+  facet normal -0.000000 0.793353 0.608762
+    outer loop
+      vertex 2.500000 -1.873833 16.126167
+      vertex 2.500000 -2.294967 16.674999
+      vertex 6.000000 -1.873833 16.126167
+    endloop
+  endfacet
+  facet normal 0.000000 0.793353 -0.608762
+    outer loop
+      vertex 6.000000 -2.294967 19.325001
+      vertex 2.500000 -1.873833 19.873833
+      vertex 6.000000 -1.873833 19.873833
+    endloop
+  endfacet
+  facet normal 0.000000 0.793353 0.608762
+    outer loop
+      vertex 6.000000 -1.873833 16.126167
+      vertex 2.500000 -2.294967 16.674999
+      vertex 6.000000 -2.294967 16.674999
+    endloop
+  endfacet
+  facet normal 0.000000 0.608762 -0.793353
+    outer loop
+      vertex 6.000000 -1.873833 19.873833
+      vertex 2.500000 -1.873833 19.873833
+      vertex 6.000000 -1.325000 20.294968
+    endloop
+  endfacet
+  facet normal 0.000000 0.793353 -0.608762
+    outer loop
+      vertex 2.500000 -2.294967 19.325001
+      vertex 2.500000 -1.873833 19.873833
+      vertex 6.000000 -2.294967 19.325001
+    endloop
+  endfacet
+  facet normal -0.000000 0.923880 0.382683
+    outer loop
+      vertex 2.500000 -2.294967 16.674999
+      vertex 2.500000 -2.559703 17.314129
+      vertex 6.000000 -2.294967 16.674999
+    endloop
+  endfacet
+  facet normal 0.000000 0.923880 0.382683
+    outer loop
+      vertex 6.000000 -2.294967 16.674999
+      vertex 2.500000 -2.559703 17.314129
+      vertex 6.000000 -2.559703 17.314129
+    endloop
+  endfacet
+  facet normal 0.000000 0.382683 -0.923880
+    outer loop
+      vertex 6.000000 -1.325000 20.294968
+      vertex 2.500000 -1.325000 20.294968
+      vertex 6.000000 -0.685870 20.559704
+    endloop
+  endfacet
+  facet normal 0.000000 0.608762 -0.793353
+    outer loop
+      vertex 2.500000 -1.873833 19.873833
+      vertex 2.500000 -1.325000 20.294968
+      vertex 6.000000 -1.325000 20.294968
+    endloop
+  endfacet
+  facet normal 0.000000 0.991445 0.130526
+    outer loop
+      vertex 6.000000 -2.559703 17.314129
+      vertex 2.500000 -2.650000 18.000000
+      vertex 6.000000 -2.650000 18.000000
+    endloop
+  endfacet
+  facet normal -0.000000 0.991445 0.130526
+    outer loop
+      vertex 2.500000 -2.559703 17.314129
+      vertex 2.500000 -2.650000 18.000000
+      vertex 6.000000 -2.559703 17.314129
+    endloop
+  endfacet
+  facet normal 0.000000 0.382683 -0.923880
+    outer loop
+      vertex 2.500000 -1.325000 20.294968
+      vertex 2.500000 -0.685870 20.559704
+      vertex 6.000000 -0.685870 20.559704
+    endloop
+  endfacet
+  facet normal 0.000000 0.130525 -0.991445
+    outer loop
+      vertex 6.000000 -0.685870 20.559704
+      vertex 2.500000 0.000000 20.650000
+      vertex 6.000000 0.000000 20.650000
+    endloop
+  endfacet
+  facet normal 0.000000 0.130525 -0.991445
+    outer loop
+      vertex 2.500000 -0.685870 20.559704
+      vertex 2.500000 0.000000 20.650000
+      vertex 6.000000 -0.685870 20.559704
+    endloop
+  endfacet
+  facet normal 0.000000 -0.130525 -0.991445
+    outer loop
+      vertex 6.000000 0.000000 20.650000
+      vertex 2.500000 0.685870 20.559704
+      vertex 6.000000 0.685870 20.559704
+    endloop
+  endfacet
+  facet normal 0.000000 -0.130525 -0.991445
+    outer loop
+      vertex 2.500000 0.000000 20.650000
+      vertex 2.500000 0.685870 20.559704
+      vertex 6.000000 0.000000 20.650000
+    endloop
+  endfacet
+  facet normal 0.000000 -0.382683 -0.923880
+    outer loop
+      vertex 6.000000 0.685870 20.559704
+      vertex 2.500000 1.325000 20.294968
+      vertex 6.000000 1.325000 20.294968
+    endloop
+  endfacet
+  facet normal 0.000000 -0.382683 -0.923880
+    outer loop
+      vertex 2.500000 0.685870 20.559704
+      vertex 2.500000 1.325000 20.294968
+      vertex 6.000000 0.685870 20.559704
+    endloop
+  endfacet
+  facet normal 0.000000 -0.608762 -0.793353
+    outer loop
+      vertex 6.000000 1.325000 20.294968
+      vertex 2.500000 1.873833 19.873833
+      vertex 6.000000 1.873833 19.873833
+    endloop
+  endfacet
+  facet normal 0.000000 -0.608762 -0.793353
+    outer loop
+      vertex 2.500000 1.325000 20.294968
+      vertex 2.500000 1.873833 19.873833
+      vertex 6.000000 1.325000 20.294968
+    endloop
+  endfacet
+  facet normal 0.000000 -0.793353 -0.608762
+    outer loop
+      vertex 6.000000 1.873833 19.873833
+      vertex 2.500000 2.294967 19.325001
+      vertex 6.000000 2.294967 19.325001
+    endloop
+  endfacet
+  facet normal 0.000000 -0.793353 -0.608762
+    outer loop
+      vertex 2.500000 1.873833 19.873833
+      vertex 2.500000 2.294967 19.325001
+      vertex 6.000000 1.873833 19.873833
+    endloop
+  endfacet
+  facet normal 0.000000 -0.923880 -0.382683
+    outer loop
+      vertex 6.000000 2.294967 19.325001
+      vertex 2.500000 2.559703 18.685871
+      vertex 6.000000 2.559703 18.685871
+    endloop
+  endfacet
+  facet normal 0.000000 -0.923880 -0.382683
+    outer loop
+      vertex 2.500000 2.294967 19.325001
+      vertex 2.500000 2.559703 18.685871
+      vertex 6.000000 2.294967 19.325001
+    endloop
+  endfacet
+  facet normal 0.000000 -0.991445 -0.130526
+    outer loop
+      vertex 2.500000 2.559703 18.685871
+      vertex 2.500000 2.650000 18.000000
+      vertex 6.000000 2.559703 18.685871
+    endloop
+  endfacet
+  facet normal 0.000000 -0.991445 -0.130526
+    outer loop
+      vertex 6.000000 2.559703 18.685871
+      vertex 2.500000 2.650000 18.000000
+      vertex 6.000000 2.650000 18.000000
+    endloop
+  endfacet
+  facet normal 0.000000 -0.991445 0.130526
+    outer loop
+      vertex 2.500000 2.650000 18.000000
+      vertex 2.500000 2.559703 17.314129
+      vertex 6.000000 2.650000 18.000000
+    endloop
+  endfacet
+  facet normal 0.000000 -0.991445 0.130526
+    outer loop
+      vertex 6.000000 2.650000 18.000000
+      vertex 2.500000 2.559703 17.314129
+      vertex 6.000000 2.559703 17.314129
+    endloop
+  endfacet
+  facet normal 0.000000 -0.923880 0.382683
+    outer loop
+      vertex 2.500000 2.559703 17.314129
+      vertex 2.500000 2.294967 16.674999
+      vertex 6.000000 2.559703 17.314129
+    endloop
+  endfacet
+  facet normal 0.000000 -0.923880 0.382683
+    outer loop
+      vertex 6.000000 2.559703 17.314129
+      vertex 2.500000 2.294967 16.674999
+      vertex 6.000000 2.294967 16.674999
+    endloop
+  endfacet
+  facet normal 0.000000 -0.793353 0.608762
+    outer loop
+      vertex 2.500000 2.294967 16.674999
+      vertex 2.500000 1.873833 16.126167
+      vertex 6.000000 2.294967 16.674999
+    endloop
+  endfacet
+  facet normal 0.000000 -0.793353 0.608762
+    outer loop
+      vertex 6.000000 2.294967 16.674999
+      vertex 2.500000 1.873833 16.126167
+      vertex 6.000000 1.873833 16.126167
+    endloop
+  endfacet
+  facet normal 0.000000 -0.608762 0.793353
+    outer loop
+      vertex 2.500000 1.873833 16.126167
+      vertex 2.500000 1.325000 15.705032
+      vertex 6.000000 1.873833 16.126167
+    endloop
+  endfacet
+  facet normal 0.000000 -0.608762 0.793353
+    outer loop
+      vertex 6.000000 1.873833 16.126167
+      vertex 2.500000 1.325000 15.705032
+      vertex 6.000000 1.325000 15.705032
+    endloop
+  endfacet
+  facet normal 0.000000 -0.382683 0.923880
+    outer loop
+      vertex 2.500000 1.325000 15.705032
+      vertex 2.500000 0.685870 15.440296
+      vertex 6.000000 1.325000 15.705032
+    endloop
+  endfacet
+  facet normal 0.000000 -0.382683 0.923880
+    outer loop
+      vertex 6.000000 1.325000 15.705032
+      vertex 2.500000 0.685870 15.440296
+      vertex 6.000000 0.685870 15.440296
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex 2.500000 -2.294967 15.675000
-      vertex 2.500000 -2.325000 12.972981
-      vertex 2.500000 -4.650000 17.000000
+      vertex 2.500000 -2.294967 16.674999
+      vertex 2.500000 -2.325000 13.972981
+      vertex 2.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 0.000000 -0.000000
     outer loop
-      vertex 2.500000 -2.294967 15.675000
-      vertex 2.500000 -1.873833 15.126167
-      vertex 2.500000 -2.325000 12.972981
+      vertex 2.500000 -2.294967 16.674999
+      vertex 2.500000 -1.873833 16.126167
+      vertex 2.500000 -2.325000 13.972981
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex 2.500000 -1.325000 14.705032
-      vertex 2.500000 -2.325000 12.972981
-      vertex 2.500000 -1.873833 15.126167
+      vertex 2.500000 -1.325000 15.705032
+      vertex 2.500000 -2.325000 13.972981
+      vertex 2.500000 -1.873833 16.126167
     endloop
   endfacet
   facet normal -1.000000 -0.000000 -0.000000
     outer loop
-      vertex 2.500000 -2.559703 16.314129
-      vertex 2.500000 -2.294967 15.675000
-      vertex 2.500000 -4.650000 17.000000
+      vertex 2.500000 -2.559703 17.314129
+      vertex 2.500000 -2.294967 16.674999
+      vertex 2.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex 2.500000 -0.685870 14.440296
-      vertex 2.500000 -2.325000 12.972981
-      vertex 2.500000 -1.325000 14.705032
+      vertex 2.500000 -0.685870 15.440296
+      vertex 2.500000 -2.325000 13.972981
+      vertex 2.500000 -1.325000 15.705032
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex 2.500000 0.000000 14.350000
-      vertex 2.500000 -2.325000 12.972981
-      vertex 2.500000 -0.685870 14.440296
+      vertex 2.500000 0.000000 15.350000
+      vertex 2.500000 -2.325000 13.972981
+      vertex 2.500000 -0.685870 15.440296
     endloop
   endfacet
   facet normal -1.000000 -0.000000 -0.000000
     outer loop
-      vertex 2.500000 -2.650000 17.000000
-      vertex 2.500000 -2.559703 16.314129
-      vertex 2.500000 -4.650000 17.000000
+      vertex 2.500000 -2.650000 18.000000
+      vertex 2.500000 -2.559703 17.314129
+      vertex 2.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 -2.559703 17.685871
-      vertex 2.500000 -2.650000 17.000000
-      vertex 2.500000 -4.650000 17.000000
+      vertex 2.500000 -2.559703 18.685871
+      vertex 2.500000 -2.650000 18.000000
+      vertex 2.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 2.325000 12.972981
-      vertex 2.500000 0.000000 14.350000
-      vertex 2.500000 0.685870 14.440296
+      vertex 2.500000 2.325000 13.972981
+      vertex 2.500000 0.000000 15.350000
+      vertex 2.500000 0.685870 15.440296
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 2.325000 12.972981
-      vertex 2.500000 -2.325000 12.972981
-      vertex 2.500000 0.000000 14.350000
+      vertex 2.500000 2.325000 13.972981
+      vertex 2.500000 -2.325000 13.972981
+      vertex 2.500000 0.000000 15.350000
     endloop
   endfacet
   facet normal -1.000000 0.000000 -0.000000
     outer loop
-      vertex 2.500000 1.325000 14.705032
-      vertex 2.500000 2.325000 12.972981
-      vertex 2.500000 0.685870 14.440296
+      vertex 2.500000 1.325000 15.705032
+      vertex 2.500000 2.325000 13.972981
+      vertex 2.500000 0.685870 15.440296
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 -2.294967 18.325001
-      vertex 2.500000 -2.559703 17.685871
-      vertex 2.500000 -4.650000 17.000000
+      vertex 2.500000 -2.294967 19.325001
+      vertex 2.500000 -2.559703 18.685871
+      vertex 2.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 0.000000 -0.000000
     outer loop
-      vertex 2.500000 1.873833 15.126167
-      vertex 2.500000 2.325000 12.972981
-      vertex 2.500000 1.325000 14.705032
+      vertex 2.500000 1.873833 16.126167
+      vertex 2.500000 2.325000 13.972981
+      vertex 2.500000 1.325000 15.705032
     endloop
   endfacet
   facet normal -1.000000 0.000000 -0.000000
     outer loop
-      vertex 2.500000 2.294967 15.675000
-      vertex 2.500000 2.325000 12.972981
-      vertex 2.500000 1.873833 15.126167
+      vertex 2.500000 2.294967 16.674999
+      vertex 2.500000 2.325000 13.972981
+      vertex 2.500000 1.873833 16.126167
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 -2.325000 21.027018
-      vertex 2.500000 -1.873833 18.873833
-      vertex 2.500000 -2.294967 18.325001
+      vertex 2.500000 -2.325000 22.027018
+      vertex 2.500000 -1.873833 19.873833
+      vertex 2.500000 -2.294967 19.325001
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 -2.325000 21.027018
-      vertex 2.500000 -1.325000 19.294968
-      vertex 2.500000 -1.873833 18.873833
+      vertex 2.500000 -2.325000 22.027018
+      vertex 2.500000 -1.325000 20.294968
+      vertex 2.500000 -1.873833 19.873833
     endloop
   endfacet
   facet normal -1.000000 0.000000 -0.000000
     outer loop
-      vertex 2.500000 -2.325000 21.027018
-      vertex 2.500000 -2.294967 18.325001
-      vertex 2.500000 -4.650000 17.000000
+      vertex 2.500000 -2.325000 22.027018
+      vertex 2.500000 -2.294967 19.325001
+      vertex 2.500000 -4.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex 2.500000 -0.685870 19.559704
-      vertex 2.500000 -1.325000 19.294968
-      vertex 2.500000 -2.325000 21.027018
+      vertex 2.500000 -0.685870 20.559704
+      vertex 2.500000 -1.325000 20.294968
+      vertex 2.500000 -2.325000 22.027018
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex 2.500000 0.000000 19.650000
-      vertex 2.500000 -0.685870 19.559704
-      vertex 2.500000 -2.325000 21.027018
+      vertex 2.500000 0.000000 20.650000
+      vertex 2.500000 -0.685870 20.559704
+      vertex 2.500000 -2.325000 22.027018
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 4.650000 17.000000
-      vertex 2.500000 2.559703 17.685871
-      vertex 2.500000 2.294967 18.325001
+      vertex 2.500000 4.650000 18.000000
+      vertex 2.500000 2.559703 18.685871
+      vertex 2.500000 2.294967 19.325001
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 4.650000 17.000000
-      vertex 2.500000 2.650000 17.000000
-      vertex 2.500000 2.559703 17.685871
+      vertex 2.500000 4.650000 18.000000
+      vertex 2.500000 2.650000 18.000000
+      vertex 2.500000 2.559703 18.685871
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex 2.500000 4.650000 17.000000
-      vertex 2.500000 2.559703 16.314129
-      vertex 2.500000 2.650000 17.000000
+      vertex 2.500000 4.650000 18.000000
+      vertex 2.500000 2.559703 17.314129
+      vertex 2.500000 2.650000 18.000000
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 4.650000 17.000000
-      vertex 2.500000 2.294967 15.675000
-      vertex 2.500000 2.559703 16.314129
+      vertex 2.500000 4.650000 18.000000
+      vertex 2.500000 2.294967 16.674999
+      vertex 2.500000 2.559703 17.314129
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 4.650000 17.000000
-      vertex 2.500000 2.325000 12.972981
-      vertex 2.500000 2.294967 15.675000
+      vertex 2.500000 4.650000 18.000000
+      vertex 2.500000 2.325000 13.972981
+      vertex 2.500000 2.294967 16.674999
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 2.325000 21.027018
-      vertex 2.500000 0.685870 19.559704
-      vertex 2.500000 0.000000 19.650000
+      vertex 2.500000 2.325000 22.027018
+      vertex 2.500000 0.685870 20.559704
+      vertex 2.500000 0.000000 20.650000
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 2.325000 21.027018
-      vertex 2.500000 1.325000 19.294968
-      vertex 2.500000 0.685870 19.559704
+      vertex 2.500000 2.325000 22.027018
+      vertex 2.500000 1.325000 20.294968
+      vertex 2.500000 0.685870 20.559704
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 2.325000 21.027018
-      vertex 2.500000 1.873833 18.873833
-      vertex 2.500000 1.325000 19.294968
+      vertex 2.500000 2.325000 22.027018
+      vertex 2.500000 1.873833 19.873833
+      vertex 2.500000 1.325000 20.294968
     endloop
   endfacet
   facet normal -1.000000 0.000000 0.000000
     outer loop
-      vertex 2.500000 2.325000 21.027018
-      vertex 2.500000 2.294967 18.325001
-      vertex 2.500000 1.873833 18.873833
+      vertex 2.500000 2.325000 22.027018
+      vertex 2.500000 2.294967 19.325001
+      vertex 2.500000 1.873833 19.873833
     endloop
   endfacet
   facet normal -1.000000 -0.000000 0.000000
     outer loop
-      vertex 2.500000 2.325000 21.027018
-      vertex 2.500000 0.000000 19.650000
-      vertex 2.500000 -2.325000 21.027018
+      vertex 2.500000 2.325000 22.027018
+      vertex 2.500000 0.000000 20.650000
+      vertex 2.500000 -2.325000 22.027018
     endloop
   endfacet
   facet normal -1.000000 0.000000 -0.000000
     outer loop
-      vertex 2.500000 2.325000 21.027018
-      vertex 2.500000 4.650000 17.000000
-      vertex 2.500000 2.294967 18.325001
+      vertex 2.500000 2.325000 22.027018
+      vertex 2.500000 4.650000 18.000000
+      vertex 2.500000 2.294967 19.325001
     endloop
   endfacet
   facet normal 0.000000 0.000000 -1.000000
