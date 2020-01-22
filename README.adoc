@@ -8,8 +8,8 @@ This is an open source project including all https://freecadweb.org[FreeCAD] par
 FreeCAD Version 0.18 or later required.
 
 Project goal is to create build instructions of a structured and low cost enclosure for the https://prusa3d.com/original-prusa-mini/[Original Prusa MINI].
-Another goal is to keep the amount of flammable materials as low as possible. Powersupply and electronis are mounted in
-the enclosure frame, but stay outside of the printing chamber.
+Keeping the amount of flammable materials as low as possible is a key objective. Having the external power brick stored in the 
+frame is another one.  Powersupply and electronics stay outside of the printing chamber.
 
 Checkout the homepage for more information: https://katerkamp.de/maker/k-mini-enclosure.xhtml[].
 
