@@ -11,6 +11,14 @@ image::K-MINI-Enclosure.png[pdfwidth=90%,width=70%]
 
 Current build:
 
-image::K-MINI-Enclosure-Photo.jpg[pdfwidth=90%,width=70%]
+image::photos/K-MINI-Enclosure.jpg[pdfwidth=90%,width=70%]
+
+DIN-Rail mount for power supply and optional controllers (Raspberry PI etc):
+
+image::photos/Frame-Powerbrick+DINrails.jpg[pdfwidth=90%,width=70%]
+
+3D printed quickrelease parts for mounting panels to extrusions:
+
+image::photos/Quickrelease-Details.jpg[pdfwidth=90%,width=70%]
 
 
