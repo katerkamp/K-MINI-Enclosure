@@ -4,8 +4,13 @@ Stefan Katerkamp <info@katerkamp.de>
 https://katerkamp.de/maker/k-mini-enclosure.xhtml[__K's-MINI-Enclosure__ by Stefan Katerkamp]
 / https://creativecommons.org/licenses/by/4.0[CC BY]
 
+This is an open source project including all https://freecadweb.org[FreeCAD] part construction files.
+FreeCAD Version 0.18 or later required.
 
-Homepage for this project is https://katerkamp.de/maker/k-mini-enclosure.xhtml[].
+Project goal is to create build instructions of a structured and low cost enclosure for the https://prusa3d.com/original-prusa-mini/[Original Prusa MINI],
+consisting of as litte as possible flammable materials.
+
+Checkout the homepage for more information: https://katerkamp.de/maker/k-mini-enclosure.xhtml[].
 
 image::K-MINI-Enclosure.png[pdfwidth=90%,width=70%]
 
