@@ -7,10 +7,10 @@ https://katerkamp.de/maker/k-mini-enclosure.xhtml[__K's-MINI-Enclosure__ by Stef
 
 Homepage for this project is https://katerkamp.de/maker/k-mini-enclosure.xhtml[].
 
-image::K-MINI-Enclosure.png[pdfwidth=90%,width=40%]
+image::K-MINI-Enclosure.png[pdfwidth=90%,width=70%]
 
 Current build:
 
-image::K-MINI-Enclosure-Photo.jpg[pdfwidth=90%,width=40%]
+image::K-MINI-Enclosure-Photo.jpg[pdfwidth=90%,width=70%]
 
 
