@@ -11,6 +11,6 @@ image::K-MINI-Enclosure.png[pdfwidth=90%,width=40%]
 
 Current build:
 
-image::K-MINI-Enclosure-Photo.png[pdfwidth=90%,width=40%]
+image::K-MINI-Enclosure-Photo.jpg[pdfwidth=90%,width=40%]
 
 
