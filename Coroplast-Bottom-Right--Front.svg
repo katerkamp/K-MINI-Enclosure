@@ -52,9 +52,9 @@
    stroke-width="0.700000"
    transform="scale(1,-1)"
   >
-<path id= "1" d=" M 135 225 L 95 225 " />
-<path id= "2" d=" M 95 225 L 95 -15 " />
-<path id= "3" d=" M 95 -15 L 35 -15 " />
+<path id= "1" d=" M 135 225 L 75 225 " />
+<path id= "2" d=" M 75 225 L 75 -15 " />
+<path id= "3" d=" M 75 -15 L 35 -15 " />
 <path id= "4" d=" M 35 -15 L 35 -75 " />
 <path id= "5" d=" M 35 -75 L 135 -75 " />
 <path id= "6" d=" M 135 -55 L 135 -75 " />
@@ -100,14 +100,6 @@
 
 
 <g> 
-  <line x1="117.500000" y1="185.500000" x2="117.500000" y2="177.261606" style="stroke:rgb(0,0,255);stroke-width:0.50" />
-<line x1="87.500000" y1="185.500000" x2="87.500000" y2="177.261606" style="stroke:rgb(0,0,255);stroke-width:0.50" />
-<line x1="117.500000" y1="178.261606" x2="87.500000" y2="178.261606" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
-  <polygon points="87.500000,178.261606 90.500000,179.261606 91.500000,178.261606 90.500000,177.261606" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="117.500000,178.261606 114.500000,177.261606 113.500000,178.261606 114.500000,179.261606" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
-  <text x="102.500000" y="176.261606" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 102.500000,176.261606)" >60</text> </g>
-
-
-<g> 
   <line x1="89.500000" y1="217.500000" x2="182.176115" y2="217.500000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
 <line x1="119.500000" y1="67.500000" x2="182.176115" y2="67.500000" style="stroke:rgb(0,0,255);stroke-width:0.50" />
 <line x1="181.176115" y1="217.500000" x2="181.176115" y2="67.500000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
@@ -137,6 +129,14 @@
 <line x1="104.436951" y1="67.500000" x2="104.436951" y2="187.500000" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
   <polygon points="104.436951,187.500000 105.436951,184.500000 104.436951,183.500000 103.436951,184.500000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="104.436951,67.500000 103.436951,70.500000 104.436951,71.500000 105.436951,70.500000" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
   <text x="102.436951" y="127.500000" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(-90.000000 102.436951,127.500000)" >240</text> </g>
+
+
+<g> 
+  <line x1="87.500000" y1="189.500000" x2="87.500000" y2="201.401638" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="107.500000" y1="189.500000" x2="107.500000" y2="201.401638" style="stroke:rgb(0,0,255);stroke-width:0.50" />
+<line x1="87.500000" y1="200.401638" x2="107.500000" y2="200.401638" style="stroke:rgb(0,0,255);stroke-width:0.50" /> 
+  <polygon points="107.500000,200.401638 104.500000,199.401638 103.500000,200.401638 104.500000,201.401638" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /><polygon points="87.500000,200.401638 90.500000,201.401638 91.500000,200.401638 90.500000,199.401638" style="fill:rgb(0,0,255);stroke:rgb(0,0,255);stroke-width:0" /> 
+  <text x="97.500000" y="198.401638" font-family="inherit" font-size="3.6" fill="rgb(0,0,255)" text-anchor="middle" transform="rotate(0.000000 97.500000,198.401638)" >40</text> </g>
 
 
 </svg>
