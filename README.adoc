@@ -4,14 +4,24 @@ Stefan Katerkamp <info@katerkamp.de>
 https://katerkamp.de/maker/k-mini-enclosure.xhtml[__K's-MINI-Enclosure__ by Stefan Katerkamp]
 / https://creativecommons.org/licenses/by/4.0[CC BY]
 
+
+Goal of this project is to create a small, low cost enclosure for the
+https://prusa3d.com/original-prusa-mini/[Original Prusa MINI],
+based on 2020-5mm-Slot aluminum extrusions.
+It will help printing higher temperature materials
+such as ASA or ABS in a cold place, such as a garage.
+Electronics and power supply stay outside of the warm air chamber.
+Note: Precautions have to be taken that the chamber temperature does not get above 45°C.
+
+Drawings, especially for the panels, may not be accurate. Please check FreeCAD sources for detailed measurements
+before starting to cut.
+
+
+
 This is an open source project including all https://freecadweb.org[FreeCAD] part construction files.
-FreeCAD Version 0.18 or later required.
+FreeCAD Version 0.18 or later with A2plus Assembly Workbench plugin required.
 
-Project goal is to create build instructions of a structured and low cost enclosure for the https://prusa3d.com/original-prusa-mini/[Original Prusa MINI].
-Keeping the amount of flammable materials as low as possible is a key objective. Having the external power brick stored in the 
-frame is another one.  Powersupply and electronics stay outside of the printing chamber.
-
-Checkout the homepage for more information: https://katerkamp.de/maker/k-mini-enclosure.xhtml[].
+Project homepage is https://katerkamp.de/maker/k-mini-enclosure.xhtml[].
 
 image::K-MINI-Enclosure.png[pdfwidth=90%,width=70%]
 
