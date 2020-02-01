@@ -1,0 +1,8 @@
+#!/bin/bash -ue
+
+
+for f in *.svg; do
+	echo $f
+	rsvg-convert -f pdf -o $(basename $f .svg).pdf $f
+done
+
